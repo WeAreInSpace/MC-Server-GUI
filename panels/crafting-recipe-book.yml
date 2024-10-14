@@ -1,0 +1,4876 @@
+panels:
+  crafting_recipe_book1:
+    title: "&4&lCrafting Recipe Book &r&01"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,48,49,51"
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book2
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Granite"
+        material: "STONE"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Granite
+
+      "13":
+        name: "Polished Granite"
+        material: "STONE"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PolishedGranite
+
+      "15":
+        name: "Diorite"
+        material: "STONE"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Diorite
+
+      "20":
+        name: "Polished Diorite"
+        material: "STONE"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PolishedDiorite
+
+      "22":
+        name: "Andesite"
+        material: "STONE"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Andesite
+
+      "24":
+        name: "Polished Andesite"
+        material: "STONE"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PolishedAndesite
+
+      "29":
+        name: "Oak Wood Planks"
+        material: "WOOD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OakWoodPlanks
+
+      "31":
+        name: "Spruce Wood Planks"
+        material: "WOOD"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpruceWoodPlanks
+
+      "33":
+        name: "Birch Wood Planks"
+        material: "WOOD"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BirchWoodPlanks
+
+      "38":
+        name: "Jungle Wood Planks"
+        material: "WOOD"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:JungleWoodPlanks
+
+      "40":
+        name: "Acacia Wood Planks"
+        material: "WOOD"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:AcaciaWoodPlanks
+
+      "42":
+        name: "Dark Oak Wood Planks"
+        material: "WOOD"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DarkOakWoodPlanks
+
+  crafting_recipe_book2:
+    title: "&4&lCrafting Recipe Book &r&02"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book1
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book3
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Lapis Lazuli Block"
+        material: "LAPIS_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LapisLazullBlock
+
+      "13":
+        name: "Dispenser"
+        material: "DISPENSER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Dispenser
+
+      "15":
+        name: "Sandstone"
+        material: "SANDSTONE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Sandstone
+
+      "20":
+        name: "Chiseled Sandstone"
+        material: "SANDSTONE"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:ChiseledSandstone
+
+      "22":
+        name: "Smooth Sandstone"
+        material: "SANDSTONE"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SmoothSandstone
+
+      "24":
+        name: "Note Block"
+        material: "NOTE_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:NoteBlock
+
+      "29":
+        name: "Powered Rail"
+        material: "POWERED_RAIL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PoweredRail
+
+      "31":
+        name: "Detector Rail"
+        material: "DETECTOR_RAIL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DetectorRail
+
+      "33":
+        name: "Sticky Piston"
+        material: "PISTON_STICKY_BASE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StickyPiston
+
+      "38":
+        name: "Piston"
+        material: "PISTON_BASE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Piston
+
+      "40":
+        name: "Wool"
+        material: "WOOL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Wool
+
+      "42":
+        name: "Orange Wool"
+        material: "WOOL"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeWool
+
+  crafting_recipe_book3:
+    title: "&4&lCrafting Recipe Book &r&03"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book2
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book4
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Magenta Wool"
+        material: "WOOL"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaWool
+
+      "13":
+        name: "Light Blue Wool"
+        material: "WOOL"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightWool
+
+      "15":
+        name: "Yellow Wool"
+        material: "WOOL"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowWool
+
+      "20":
+        name: "Lime Wool"
+        material: "WOOL"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LimeWool
+
+      "22":
+        name: "Pink Wool"
+        material: "WOOL"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkWool
+
+      "24":
+        name: "Gray Wool"
+        material: "WOOL"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrayWool
+
+      "29":
+        name: "Light Gray Wool"
+        material: "WOOL"
+        ID: "8"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayWool
+
+      "31":
+        name: "Cyan Wool"
+        material: "WOOL"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CyanWool
+
+      "33":
+        name: "Purple Wool"
+        material: "WOOL"
+        ID: "10"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PurpleWool
+
+      "38":
+        name: "Blue Wool"
+        material: "WOOL"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlueWool
+
+      "40":
+        name: "Brown Wool"
+        material: "WOOL"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrownWool
+
+      "42":
+        name: "Green Wool"
+        material: "WOOL"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GreenWool
+
+  crafting_recipe_book4:
+    title: "&4&lCrafting Recipe Book &r&04"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book3
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book5
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Red Wool"
+        material: "WOOL"
+        ID: "14"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedWool
+
+      "13":
+        name: "Black Wool"
+        material: "WOOL"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlackWool
+
+      "15":
+        name: "Block Of Gold"
+        material: "GOLD_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlockOfGold
+
+      "20":
+        name: "Block Of Iron"
+        material: "IRON_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlockOfIron
+
+      "22":
+        name: "Stone Slab"
+        material: "STEP"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneSlab
+
+      "24":
+        name: "Sandstone Slab"
+        material: "STEP"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SandstoneSlab
+
+      "29":
+        name: "Cobblestone Slab"
+        material: "STEP"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CobblestoneSlab
+
+      "31":
+        name: "Brick Slab"
+        material: "STEP"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrickSlab
+
+      "33":
+        name: "Stone Brick Slab"
+        material: "STEP"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneBrickSlab
+
+      "38":
+        name: "Nether Brick Slab"
+        material: "STEP"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:NetherBrickSlab
+
+      "40":
+        name: "Quartz Slab"
+        material: "STEP"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:QuartzSlab
+
+      "42":
+        name: "Bricks"
+        material: "BRICK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bricks
+
+  crafting_recipe_book5:
+    title: "&4&lCrafting Recipe Book &r&05"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book4
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book6
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "TNT"
+        material: "TNT"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:TNT
+
+      "13":
+        name: "Bookshelf"
+        material: "BOOKSHELF"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bookshelf
+
+      "15":
+        name: "Moss Stone"
+        material: "MOSSY_COBBLESTONE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MossStone
+
+      "20":
+        name: "Torch"
+        material: "TORCH"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Torch
+
+      "22":
+        name: "Oak Wood Stairs"
+        material: "WOOD_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OakWoodStairs
+
+      "24":
+        name: "Chest"
+        material: "CHEST"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Chest
+
+      "29":
+        name: "Block Of Diamond"
+        material: "DIAMOND_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlockOfDiamond
+
+      "31":
+        name: "Crafting Table"
+        material: "WORKBENCH"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CraftingTable
+
+      "33":
+        name: "Furnace"
+        material: "FURNACE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Furnace
+
+      "38":
+        name: "Ladder"
+        material: "LADDER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Ladder
+
+      "40":
+        name: "Rail"
+        material: "RAILS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Rail
+
+      "42":
+        name: "Cobblestone Stairs"
+        material: "COBBLESTONE_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CobblestoneStairs
+
+  crafting_recipe_book6:
+    title: "&4&lCrafting Recipe Book &r&06"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book5
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book7
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Lever"
+        material: "LEVER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Lever
+
+      "13":
+        name: "Stone Pressure Plate"
+        material: "STONE_PLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StonePressurePlate
+
+      "15":
+        name: "Wooden Pressure Plate"
+        material: "WOOD_PLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodenPressurePlate
+
+      "20":
+        name: "Redstone Torch"
+        material: "REDSTONE_TORCH_ON"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedstoneTorch
+
+      "22":
+        name: "Stone Button"
+        material: "STONE_BUTTON"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneButton
+
+      "24":
+        name: "Snow"
+        material: "SNOW"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Snow
+
+      "29":
+        name: "Snow Block"
+        material: "SNOW_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SnowBlock
+
+      "31":
+        name: "Clay Block"
+        material: "CLAY"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:ClayBlock
+
+      "33":
+        name: "Jukebox"
+        material: "JUKEBOX"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Jukebox
+
+      "38":
+        name: "Oak Fence"
+        material: "FENCE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OakFence
+
+      "40":
+        name: "Glowstone"
+        material: "GLOWSTONE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Glowstone
+
+      "42":
+        name: "Jack O Lantern"
+        material: "JACK_O_LANTERN"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:JackOLantern
+
+  crafting_recipe_book7:
+    title: "&4&lCrafting Recipe Book &r&07"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book6
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book8
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "White Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WhiteStainedGlass
+
+      "13":
+        name: "Orange Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeStainedGlass
+
+      "15":
+        name: "Magenta Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaStainedGlass
+
+      "20":
+        name: "Light Blue Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightBlueStainedGlass
+
+      "22":
+        name: "Yellow Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowStainedGlass
+
+      "24":
+        name: "Lime Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LimeStainedGlass
+
+      "29":
+        name: "Pink Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkStainedGlass
+
+      "31":
+        name: "Gray Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrayStainedGlass
+
+      "33":
+        name: "Light Gray Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "8"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayStainedGlass
+
+      "38":
+        name: "Cyan Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CyanStainedGlass
+
+      "40":
+        name: "Purple Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "10"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PurpleStainedGlass
+
+      "42":
+        name: "Blue Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlueStainedGlass
+
+  crafting_recipe_book8:
+    title: "&4&lCrafting Recipe Book &r&08"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book7
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book9
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Brown Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrownStainedGlass
+
+      "13":
+        name: "Green Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GreenStainedGlass
+
+      "15":
+        name: "Red Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "14"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedStainedGlass
+
+      "20":
+        name: "Black Stained Glass"
+        material: "STAINED_GLASS"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlackStainedGlass
+
+      "22":
+        name: "Wooden Trapdoor"
+        material: "TRAP_DOOR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodenTrapdoor
+
+      "24":
+        name: "Stone Bricks"
+        material: "SMOOTH_BRICK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneBricks
+
+      "29":
+        name: "Mossy Stone Bricks"
+        material: "SMOOTH_BRICK"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MossyStoneBricks
+
+      "31":
+        name: "Chiseled Stone Bricks"
+        material: "SMOOTH_BRICK"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:ChiseledStoneBricks
+
+      "33":
+        name: "Iron Bars"
+        material: "IRON_BARDING"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronBars
+
+      "38":
+        name: "Glass Pane"
+        material: "THIN_GLASS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GlassPane
+
+      "40":
+        name: "Melon Block"
+        material: "MELON_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MelonBlock
+
+      "42":
+        name: "Oak Fence Gate"
+        material: "FENCE_GATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OakFenceGate
+
+  crafting_recipe_book9:
+    title: "&4&lCrafting Recipe Book &r&09"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book8
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book10
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Bricks Stairs"
+        material: "BRICK_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BricksStairs
+
+      "13":
+        name: "Stone Bricks Stairs"
+        material: "SMOOTH_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneBricksStairs
+
+      "15":
+        name: "Nether Bricks"
+        material: "NETHER_BRICK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:NetherBricks
+
+      "20":
+        name: "Nether Bricks Fence"
+        material: "NETHER_FENCE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:NetherBricksFence
+
+      "22":
+        name: "Nether Bricks Stairs"
+        material: "NETHER_BRICK_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:NetherBricksStairs
+
+      "24":
+        name: "Enchantment Table"
+        material: "ENCHANTMENT_TABLE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:EnchantmentTable
+
+      "29":
+        name: "Redstone Lamp"
+        material: "REDSTONE_LAMP_OFF"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedstoneLamp
+
+      "31":
+        name: "Oak Wood Slab"
+        material: "WOOD_STEP"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OakWoodSlab
+
+      "33":
+        name: "Spruce Wood Slab"
+        material: "WOOD_STEP"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Spruce Wood Slab
+
+      "38":
+        name: "Birch Wood Slab"
+        material: "WOOD_STEP"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BirchWoodSlab
+
+      "40":
+        name: "Jungle Wood Slab"
+        material: "WOOD_STEP"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:JungleWoodSlab
+
+      "42":
+        name: "Acacia Wood Slab"
+        material: "WOOD_STEP"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:AcaciaWoodSlab
+
+  crafting_recipe_book10:
+    title: "&4&lCrafting Recipe Book &r&010"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book9
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book11
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Dark Oak Wood Slab"
+        material: "WOOD_STEP"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DarkOakWoodSlab
+
+      "13":
+        name: "Sandstone Stairs"
+        material: "SANDSTONE_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SandstoneStairs
+
+      "15":
+        name: "Ender Chest"
+        material: "ENDER_CHEST"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:EnderChest
+
+      "20":
+        name: "Tripwire Hook"
+        material: "TRIPWIRE_HOOK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:TripwireHook
+
+      "22":
+        name: "Block Of Emerald"
+        material: "EMERALD_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlockOfEmerald
+
+      "24":
+        name: "Spruce Wood Stairs"
+        material: "SPRUCE_WOOD_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpruceWoodStairs
+
+      "29":
+        name: "Birch Wood Stairs"
+        material: "BIRCH_WOOD_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BirchWoodStairs
+
+      "31":
+        name: "Jungle Wood Stairs"
+        material: "JUNGLE_WOOD_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:JungleWoodStairs
+
+      "33":
+        name: "Beacon"
+        material: "BEACON"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Beacon
+
+      "38":
+        name: "Cobblestone Wall"
+        material: "COBBLE_WALL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CobblestoneWall
+
+      "40":
+        name: "Mossy Cobblestone Wall"
+        material: "COBBLE_WALL"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MossyCobblestoneWall
+
+      "42":
+        name: "Wood Button"
+        material: "WOOD_BUTTON"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodButton
+
+  crafting_recipe_book11:
+    title: "&4&lCrafting Recipe Book &r&011"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book10
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book12
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Anvil"
+        material: "ANVIL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Anvil
+
+      "13":
+        name: "Trapped Chest"
+        material: "TRAPPED_CHEST"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Trapped Chest
+
+      "15":
+        name: "Weighted Pressure Plate (Light)"
+        material: "GOLD_PLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WeightedPressurePlate(Light)
+
+      "20":
+        name: "Weighted Pressure Plate (Heavy)"
+        material: "IRON_PLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WeightedPressurePlate(Heavy)
+
+      "22":
+        name: "Daylight Sensor"
+        material: "DAYLIGHT_DETECTOR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DaylightSensor
+
+      "24":
+        name: "Block Of Redstone"
+        material: "REDSTONE_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlockOfRedstone
+
+      "29":
+        name: "Hopper"
+        material: "HOPPER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Hopper
+
+      "31":
+        name: "Block Of Quartz"
+        material: "QUARTZ_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlockOfQuartz
+
+      "33":
+        name: "Chiseled Quartz Block"
+        material: "QUARTZ_BLOCK"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:ChiseledQuartzBlock
+
+      "38":
+        name: "Pillar Quartz Block"
+        material: "QUARTZ_BLOCK"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PillarQuartzBlock
+
+      "40":
+        name: "Quartz Stairs"
+        material: "QUARTZ_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:QuartzStairs
+
+      "42":
+        name: "Activator Rail"
+        material: "ACTIVATOR_RAIL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:ActivatorRail
+
+  crafting_recipe_book12:
+    title: "&4&lCrafting Recipe Book &r&012"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book11
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book13
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Dropper"
+        material: "DROPPER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Dropper
+
+      "13":
+        name: "White Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WhiteStainedClay
+
+      "15":
+        name: "Orange Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeStainedClay
+
+      "20":
+        name: "Magenta Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaStainedClay
+
+      "22":
+        name: "Light Blue Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightBlueStainedClay
+
+      "24":
+        name: "Yellow Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowStainedClay
+
+      "29":
+        name: "Lime Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LimeStainedClay
+
+      "31":
+        name: "Pink Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkStainedClay
+
+      "33":
+        name: "Gray Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrayStainedClay
+
+      "38":
+        name: "Light Gray Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "8"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayStainedClay
+
+      "40":
+        name: "Cyan Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CyanStainedClay
+
+      "42":
+        name: "Purple Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "10"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PurpleStainedClay
+
+  crafting_recipe_book13:
+    title: "&4&lCrafting Recipe Book &r&013"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book12
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book14
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Blue Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlueStainedClay
+
+      "13":
+        name: "Brown Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrownStainedClay
+
+      "15":
+        name: "Green Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GreenStainedClay
+
+      "20":
+        name: "Red Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "14"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedStainedClay
+
+      "22":
+        name: "Black Stained Clay"
+        material: "STAINED_CLAY"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlackStainedClay
+
+      "24":
+        name: "White Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WhiteStainedGlassPane
+
+      "29":
+        name: "Orange Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeStainedGlassPane
+
+      "31":
+        name: "Magenta Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaStainedGlassPane
+
+      "33":
+        name: "Light Blue Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightBlueStainedGlassPane
+
+      "38":
+        name: "Yellow Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowStainedGlassPane
+
+      "40":
+        name: "Lime Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LimeStainedGlassPane
+
+      "42":
+        name: "Pink Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkStainedGlassPane
+
+  crafting_recipe_book14:
+    title: "&4&lCrafting Recipe Book &r&014"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book13
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book15
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Gray Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrayStainedGlassPane
+
+      "13":
+        name: "Light Gray Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "8"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayStainedGlassPane
+
+      "15":
+        name: "Cyan Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CyanStainedGlassPane
+
+      "20":
+        name: "Purple Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PurpleStainedGlassPane
+
+      "22":
+        name: "Blue Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlueStainedGlassPane
+
+      "24":
+        name: "Brown Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrownStainedGlassPane
+
+      "29":
+        name: "Green Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GreenStainedGlassPane
+
+      "31":
+        name: "Red Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedStainedGlassPane
+
+      "33":
+        name: "Black Stained Glass Pane"
+        material: "STAINED_GLASS_PANE"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlackStainedGlassPane
+
+      "38":
+        name: "Acacia Wood Stairs"
+        material: "ACACIA_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:AcaciaWoodStairs
+
+      "40":
+        name: "Dark Oak Wood Stairs"
+        material: "DARK_OAK_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DarkOakWoodStairs
+
+      "42":
+        name: "Slime Block"
+        material: "SLIME_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SlimeBlock
+
+  crafting_recipe_book15:
+    title: "&4&lCrafting Recipe Book &r&015"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book14
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book16
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Dark Prismarine"
+        material: "PRISMARINE"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DarkPrismarine
+
+      "13":
+        name: "Sea Lantern"
+        material: "SEA_LANTERN"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SeaLantern
+
+      "15":
+        name: "Hay Bale"
+        material: "HAY_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:HayBale
+
+      "20":
+        name: "White Carpet"
+        material: "CARPET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WhiteCarpet
+
+      "22":
+        name: "Orange Carpet"
+        material: "CARPET"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeCarpet
+
+      "24":
+        name: "Magenta Carpet"
+        material: "CARPET"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaCarpet
+
+      "29":
+        name: "Light Blue Carpet"
+        material: "CARPET"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightBlueCarpet
+
+      "31":
+        name: "Yellow Carpet"
+        material: "CARPET"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowCarpet
+
+      "33":
+        name: "Lime Carpet"
+        material: "CARPET"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LimeCarpet
+
+      "38":
+        name: "Pink Carpet"
+        material: "CARPET"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkCarpet
+
+      "40":
+        name: "Gray Carpet"
+        material: "CARPET"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrayCarpet
+
+      "42":
+        name: "Light Gray Carpet"
+        material: "CARPET"
+        ID: "8"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayCarpet
+
+  crafting_recipe_book16:
+    title: "&4&lCrafting Recipe Book &r&016"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book15
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book17
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Cyan Carpet"
+        material: "CARPET"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CyanCarpet
+
+      "13":
+        name: "Purple Carpet"
+        material: "CARPET"
+        ID: "10"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PurpleCarpet
+
+      "15":
+        name: "Blue Carpet"
+        material: "CARPET"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlueCarpet
+
+      "20":
+        name: "Brown Carpet"
+        material: "CARPET"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrownCarpet
+
+      "22":
+        name: "Green Carpet"
+        material: "CARPET"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GreenCarpet
+
+      "24":
+        name: "Red Carpet"
+        material: "CARPET"
+        ID: "14"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedCarpet
+
+      "29":
+        name: "Black Carpet"
+        material: "CARPET"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlackCarpet
+
+      "31":
+        name: "Block Of Coal"
+        material: "COAL_BLOCK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlockOfCoal
+
+      "33":
+        name: "Red Sandstone"
+        material: "RED_SANDSTONE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedSandstone
+
+      "38":
+        name: "Chiseled Red Sandstone"
+        material: "RED_SANDSTONE"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:ChiseledRedSandstone
+
+      "40":
+        name: "Smooth Red Sandstone"
+        material: "RED_SANDSTONE"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SmoothRedSandstone
+
+      "42":
+        name: "Red Sandstone Stairs"
+        material: "RED_SANDSTONE_STAIRS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedSandstoneStairs
+
+  crafting_recipe_book17:
+    title: "&4&lCrafting Recipe Book &r&017"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book16
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book18
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Red Sandstone Slab"
+        material: "STONE_SLAB2"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedSandstoneSlab
+
+      "13":
+        name: "Spruce Fence Gate"
+        material: "SPRUCE_FENCE_GATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpruceFenceGate
+
+      "15":
+        name: "Birch Fence Gate"
+        material: "BIRCH_FENCE_GATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BirchFenceGate
+
+      "20":
+        name: "Jungle Fence Gate"
+        material: "JUNGLE_FENCE_GATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:JungleFenceGate
+
+      "22":
+        name: "Dark Oak Fence Gate"
+        material: "DARK_OAK_FENCE_GATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DarkOakFenceGate
+
+      "24":
+        name: "Acacia Fence Gate"
+        material: "ACACIA_FENCE_GATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:AcaciaFenceGate
+
+      "29":
+        name: "Spruce Fence"
+        material: "SPRUCE_FENCE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpruceFence
+
+      "31":
+        name: "Birch Fence"
+        material: "BIRCH_FENCE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BirchFence
+
+      "33":
+        name: "Jungle Fence"
+        material: "JUNGLE_FENCE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:JungleFence
+
+      "38":
+        name: "Dark Oak Fence"
+        material: "DARK_OAK_FENCE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DarkOakFence
+
+      "40":
+        name: "Acacia Fence"
+        material: "ACACIA_FENCE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:AcaciaFence
+
+      "42":
+        name: "Iron Shovel"
+        material: "IRON_SPADE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronShovel
+
+  crafting_recipe_book18:
+    title: "&4&lCrafting Recipe Book &r&018"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book17
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book19
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Iron Pickaxe"
+        material: "IRON_PICKAXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronPickaxe
+
+      "13":
+        name: "Iron Axe"
+        material: "IRON_AXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronAxe
+
+      "15":
+        name: "Flint And Steel"
+        material: "FLINT_AND_STEEL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:FlintAndSteel
+
+      "20":
+        name: "Bow"
+        material: "BOW"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bow
+
+      "22":
+        name: "Arrow"
+        material: "ARROW"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Arrow
+
+      "24":
+        name: "Coal"
+        material: "COAL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Coal
+
+      "29":
+        name: "Diamond"
+        material: "DIAMOND"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Diamond
+
+      "31":
+        name: "Iron Ingot"
+        material: "IRON_INGOT"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronIngot
+
+      "33":
+        name: "Gold Ingot"
+        material: "GOLD_INGOT"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldIngot
+
+      "38":
+        name: "Iron Sword"
+        material: "IRON_SWORD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronSword
+
+      "40":
+        name: "Wooden Sword"
+        material: "WOOD_SWORD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodenSword
+
+      "42":
+        name: "Wooden Shovel"
+        material: "WOOD_SPADE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodenShovel
+
+  crafting_recipe_book19:
+    title: "&4&lCrafting Recipe Book &r&019"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book18
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book20
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Wooden Pickaxe"
+        material: "WOOD_PICKAXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodenPickaxe
+
+      "13":
+        name: "Wooden Axe"
+        material: "WOOD_AXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodenAxe
+
+      "15":
+        name: "Stone Sword"
+        material: "STONE_SWORD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneSword
+
+      "20":
+        name: "Stone Shovel"
+        material: "STONE_SPADE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneShovel
+
+      "22":
+        name: "Stone Pickaxe"
+        material: "STONE_PICKAXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StonePickaxe
+
+      "24":
+        name: "Stone Axe"
+        material: "STONE_AXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneAxe
+
+      "29":
+        name: "Diamond Sword"
+        material: "DIAMOND_SWORD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondSword
+
+      "31":
+        name: "Diamond Shovel"
+        material: "DIAMOND_SPADE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondShovel
+
+      "33":
+        name: "Diamond Pickaxe"
+        material: "DIAMOND_PICKAXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondPickaxe
+
+      "38":
+        name: "Diamond Axe"
+        material: "DIAMOND_AXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondAxe
+
+      "40":
+        name: "Stick"
+        material: "STICK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Stick
+
+      "42":
+        name: "Bowl"
+        material: "BOWL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bowl
+
+  crafting_recipe_book20:
+    title: "&4&lCrafting Recipe Book &r&020"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book19
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book21
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Mushroom Stew"
+        material: "MUSHROOM_SOUP"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MushroomStew
+
+      "13":
+        name: "Golden Sword"
+        material: "GOLD_SWORD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenSword
+
+      "15":
+        name: "Golden Shovel"
+        material: "GOLD_SPADE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenShovel
+
+      "20":
+        name: "Golden Pickaxe"
+        material: "GOLD_PICKAXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenPickaxe
+
+      "22":
+        name: "Golden Axe"
+        material: "GOLD_AXE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenAxe
+
+      "24":
+        name: "Wooden Hoe"
+        material: "WOOD_HOE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WoodenHoe
+
+      "29":
+        name: "Stone Hoe"
+        material: "STONE_HOE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:StoneHoe
+
+      "31":
+        name: "Iron Hoe"
+        material: "IRON_HOE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronHoe
+
+      "33":
+        name: "Diamond Hoe"
+        material: "DIAMOND_HOE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondHoe
+
+      "38":
+        name: "Golden Hoe"
+        material: "GOLD_HOE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenHoe
+
+      "40":
+        name: "Wheat"
+        material: "WHEAT"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Wheat
+
+      "42":
+        name: "Bread"
+        material: "BREAD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bread
+
+  crafting_recipe_book21:
+    title: "&4&lCrafting Recipe Book &r&021"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book20
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book22
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Leather Helmet"
+        material: "LEATHER_HELMET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LeatherHelmet
+
+      "13":
+        name: "Leather Chestplate"
+        material: "LEATHER_CHESTPLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LeatherChestplate
+
+      "15":
+        name: "Leather Leggings"
+        material: "LEATHER_LEGGINGS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LeatherLeggings
+
+      "20":
+        name: "Leather Boots"
+        material: "LEATHER_BOOTS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LeatherBoots
+
+      "22":
+        name: "Iron Helmet"
+        material: "IRON_HELMET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronHelmet
+
+      "24":
+        name: "Iron Chestplate"
+        material: "IRON_CHESTPLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronChestplate
+
+      "29":
+        name: "Iron Leggings"
+        material: "IRON_LEGGINGS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronLeggings
+
+      "31":
+        name: "Iron Boots"
+        material: "IRON_BOOTS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronBoots
+
+      "33":
+        name: "Diamond Helmet"
+        material: "DIAMOND_HELMET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondHelmet
+
+      "38":
+        name: "Diamond Chestplate"
+        material: "DIAMOND_CHESTPLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondChestplate
+
+      "40":
+        name: "Diamond Leggings"
+        material: "DIAMOND_LEGGINGS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondLeggings
+
+      "42":
+        name: "Diamond Boots"
+        material: "DIAMOND_BOOTS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DiamondBoots
+
+  crafting_recipe_book22:
+    title: "&4&lCrafting Recipe Book &r&022"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book21
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book23
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Golden Helmet"
+        material: "GOLD_HELMET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenHelmet
+
+      "13":
+        name: "Golden Chestplate"
+        material: "GOLD_CHESTPLATE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenChestplate
+
+      "15":
+        name: "Golden Leggings"
+        material: "GOLD_LEGGINGS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenLeggings
+
+      "20":
+        name: "Golden Boots"
+        material: "GOLD_BOOTS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenBoots
+
+      "22":
+        name: "Painting"
+        material: "PAINTING"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Painting
+
+      "24":
+        name: "Golden Apple"
+        material: "GOLDEN_APPLE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenApple
+
+      "29":
+        name: "Enchanted Golden Apple"
+        material: "GOLDEN_APPLE"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:EnchantedGoldenApple
+
+      "31":
+        name: "Sign"
+        material: "SIGN"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Sign
+
+      "33":
+        name: "Oak Door"
+        material: "WOOD_DOOR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OakDoor
+
+      "38":
+        name: "Bucket"
+        material: "BUCKET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bucket
+
+      "40":
+        name: "Minecart"
+        material: "MINECART"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Minecart
+
+      "42":
+        name: "Iron Door"
+        material: "IRON_DOOR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronDoor
+
+  crafting_recipe_book23:
+    title: "&4&lCrafting Recipe Book &r&023"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book22
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book24
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Redstone"
+        material: "REDSTONE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Redstone
+
+      "13":
+        name: "Boat"
+        material: "BOAT"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Boat
+
+      "15":
+        name: "Leather"
+        material: "LEATHER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Leather
+
+      "20":
+        name: "Paper"
+        material: "PAPER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Paper
+
+      "22":
+        name: "Book"
+        material: "BOOK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Book
+
+      "24":
+        name: "Slime Ball"
+        material: "SLIME_BALL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SlimeBall
+
+      "29":
+        name: "Minecart With Chest"
+        material: "STORAGE_MINECART"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MinecartWithChest
+
+      "31":
+        name: "Minecart With Furnace"
+        material: "POWERED_MINECART"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MinecartWithFurnace
+
+      "33":
+        name: "Compass"
+        material: "COMPASS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Compass
+
+      "38":
+        name: "Fishing Rod"
+        material: "FISHING_ROD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:FishingRod
+
+      "40":
+        name: "Clock"
+        material: "WATCH"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Clock
+
+      "42":
+        name: "Red Dye"
+        material: "INK_SACK"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedDye
+
+  crafting_recipe_book24:
+    title: "&4&lCrafting Recipe Book &r&024"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book23
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book25
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Red Dye 1"
+        material: "INK_SACK"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedDye1
+
+      "13":
+        name: "Red Dye 2"
+        material: "INK_SACK"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedDye2
+
+      "15":
+        name: "Purple Dye"
+        material: "INK_SACK"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PurpleDye
+
+      "20":
+        name: "Cyan Dye"
+        material: "INK_SACK"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CyanDye
+
+      "22":
+        name: "Light Gray Dye"
+        material: "INK_SACK"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayDye
+
+      "24":
+        name: "Light Gray Dye 1"
+        material: "INK_SACK"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayDye1
+
+      "29":
+        name: "Light Gray Dye 2"
+        material: "INK_SACK"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayDye2
+
+      "31":
+        name: "Light Gray Dye 3"
+        material: "INK_SACK"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayDye3
+
+      "33":
+        name: "Light Gray Dye 4"
+        material: "INK_SACK"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayDye4
+
+      "38":
+        name: "Gray Dye"
+        material: "INK_SACK"
+        ID: "8"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrayDye
+
+      "40":
+        name: "Pink Dye"
+        material: "INK_SACK"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkDye
+
+      "42":
+        name: "Pink Dye 1"
+        material: "INK_SACK"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkDye1
+
+  crafting_recipe_book25:
+    title: "&4&lCrafting Recipe Book &r&025"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book24
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book26
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Pink Dye 2"
+        material: "INK_SACK"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkDye2
+
+      "13":
+        name: "Lime Dye"
+        material: "INK_SACK"
+        ID: "10"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LimeDye
+
+      "15":
+        name: "Yellow Dye"
+        material: "INK_SACK"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowDye
+
+      "20":
+        name: "Yellow Dye 1"
+        material: "INK_SACK"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowDye1
+
+      "22":
+        name: "Light Blue Dye"
+        material: "INK_SACK"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightBlueDye
+
+      "24":
+        name: "Light Blue Dye 1"
+        material: "INK_SACK"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightBlueDye2
+
+      "29":
+        name: "Magenta Dye"
+        material: "INK_SACK"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaDye
+
+      "31":
+        name: "Magenta Dye 1"
+        material: "INK_SACK"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaDye1
+
+      "33":
+        name: "Magenta Dye 2"
+        material: "INK_SACK"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaDye2
+
+      "38":
+        name: "Magenta Dye 3"
+        material: "INK_SACK"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaDye3
+
+      "40":
+        name: "Magenta Dye 4"
+        material: "INK_SACK"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaDye4
+
+      "42":
+        name: "Orange Dye"
+        material: "INK_SACK"
+        ID: "14"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeDye
+
+  crafting_recipe_book26:
+    title: "&4&lCrafting Recipe Book &r&026"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book25
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book27
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Orange Dye 1"
+        material: "INK_SACK"
+        ID: "14"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeDye1
+
+      "13":
+        name: "Bone Meal"
+        material: "INK_SACK"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BoneMeal
+
+      "15":
+        name: "Sugar"
+        material: "SUGAR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Sugar
+
+      "20":
+        name: "Cake"
+        material: "CAKE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Cake
+
+      "22":
+        name: "Bed"
+        material: "BED"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bed
+
+      "24":
+        name: "Redsrone Repeater"
+        material: "DIODE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedsroneRepeater
+
+      "29":
+        name: "Cookie"
+        material: "COOKIE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Cookie
+
+      "31":
+        name: "Shears"
+        material: "SHEARS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Shears
+
+      "33":
+        name: "Pumpkin Seeds"
+        material: "PUMPKIN_SEEDS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PumpkinSeeds
+
+      "38":
+        name: "Melon Seeds"
+        material: "MELON_SEEDS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MelonSeeds
+
+      "40":
+        name: "Gold Nugget"
+        material: "GOLD_NUGGET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldNugget
+
+      "42":
+        name: "Glass Bottle"
+        material: "GLASS_BOTTLE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GlassBottle
+
+  crafting_recipe_book27:
+    title: "&4&lCrafting Recipe Book &r&027"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book26
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book28
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Fermented Spider Eye"
+        material: "FERMENTED_SPIDER_EYE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:FermentedSpiderEye
+
+      "13":
+        name: "Blaze Powder"
+        material: "BLAZE_POWDER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlazePowder
+
+      "15":
+        name: "Magma Cream"
+        material: "MAGMA_CREAM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagmaCream
+
+      "20":
+        name: "Brewing Stand"
+        material: "BREWING_STAND_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrewingStand
+
+      "22":
+        name: "Cauldron"
+        material: "CAULDRON_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Cauldron
+
+      "24":
+        name: "Eye Of Ender"
+        material: "EYE_OF_ENDER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:EyeOfEnder
+
+      "29":
+        name: "Golden Melon"
+        material: "SPECKLED_MELON"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenMelon
+
+      "31":
+        name: "Fire Charge"
+        material: "FIREWORK_CHARGE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:FireCharge
+
+      "33":
+        name: "Book And Quill"
+        material: "BOOK_AND_QUILL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BookAndQuill
+
+      "38":
+        name: "Emerald"
+        material: "EMERALD"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Emerald
+
+      "40":
+        name: "Item Frame"
+        material: "ITEM_FRAME"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Item Frame
+
+      "42":
+        name: "Flower Pot"
+        material: "FLOWER_POT_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:FlowerPot
+
+  crafting_recipe_book28:
+    title: "&4&lCrafting Recipe Book &r&028"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book27
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book29
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Empty Map"
+        material: "EMPTY_MAP"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:EmptyMap
+
+      "13":
+        name: "Golden Carrot"
+        material: "GOLDEN_CARROT"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GoldenCarrot
+
+      "15":
+        name: "Carrot On A Stick"
+        material: "CARROT_STICK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CarrotOnAStick
+
+      "20":
+        name: "Pumpkin Pie"
+        material: "PUMPKIN_PIE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PumpkinPie
+
+      "22":
+        name: "Redstone Comparator"
+        material: "REDSTONE_COMPARATOR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedstoneComparator
+
+      "24":
+        name: "Minecart With TNT"
+        material: "EXPLOSIVE_MINECART"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MinecartWithTNT
+
+      "29":
+        name: "Minecart With Hopper"
+        material: "HOPPER_MINECART"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MinecartWithHopper
+
+      "31":
+        name: "Rabbit Stew"
+        material: "RABBIT_STEW"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RabbitStew
+
+      "33":
+        name: "Armor Stand"
+        material: "ARMOR_STAND"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:ArmorStand
+
+      "38":
+        name: "Lead"
+        material: "LEASH"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Lead
+
+      "40":
+        name: "White Banner"
+        material: "BANNER"
+        ID: "15"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WhiteBanner
+
+      "42":
+        name: "Orange Banner"
+        material: "BANNER"
+        ID: "14"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:OrangeBanner
+
+  crafting_recipe_book29:
+    title: "&4&lCrafting Recipe Book &r&029"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book28
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book30
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Magenta Banner"
+        material: "BANNER"
+        ID: "13"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:MagentaBanner
+
+      "13":
+        name: "Light Blue Banner"
+        material: "BANNER"
+        ID: "12"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightBlueBanner
+
+      "15":
+        name: "Yellow Banner"
+        material: "BANNER"
+        ID: "11"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:YellowBanner
+
+      "20":
+        name: "Lime Banner"
+        material: "BANNER"
+        ID: "10"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LimeBanner
+
+      "22":
+        name: "Pink Banner"
+        material: "BANNER"
+        ID: "9"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PinkBanner
+
+      "24":
+        name: "Gray Banner"
+        material: "BANNER"
+        ID: "8"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrayBanner
+
+      "29":
+        name: "Light Gray Banner"
+        material: "BANNER"
+        ID: "7"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:LightGrayBanner
+
+      "31":
+        name: "Cyan Banner"
+        material: "BANNER"
+        ID: "6"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:CyanBanner
+
+      "33":
+        name: "Purple Banner"
+        material: "BANNER"
+        ID: "5"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PurpleBanner
+
+      "38":
+        name: "Blue Banner"
+        material: "BANNER"
+        ID: "4"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlueBanner
+
+      "40":
+        name: "Brown Banner"
+        material: "BANNER"
+        ID: "3"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BrownBanner
+
+      "42":
+        name: "Green Banner"
+        material: "BANNER"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GreenBanner
+
+  crafting_recipe_book30:
+    title: "&4&lCrafting Recipe Book &r&030"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book29
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book31
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Red Banner"
+        material: "BANNER"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open=
+
+      "13":
+        name: "Black Banner"
+        material: "BANNER"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BlackBanner
+
+      "15":
+        name: "Spruce Door"
+        material: "SPRUCE_DOOR_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpruceDoor
+
+      "20":
+        name: "Birch Door"
+        material: "BIRCH_DOOR_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:BirchDoor
+
+      "22":
+        name: "Jungle Door"
+        material: "JUNGLE_DOOR_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:JungleDoor
+
+      "24":
+        name: "Acacia Door"
+        material: "ACACIA_DOOR_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:AcaciaDoor
+
+      "29":
+        name: "Dark Oak Door"
+        material: "DARK_OAK_DOOR_ITEM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DarkOakDoor
+
+      "31":
+        name: "Spawn Mooshroom"
+        material: "MONSTER_EGG"
+        ID: "96"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnMooshroom
+
+      "33":
+        name: "Spawn Sheep"
+        material: "MONSTER_EGG"
+        ID: "91"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnSheep
+
+      "38":
+        name: "Spawn Cow"
+        material: "MONSTER_EGG"
+        ID: "92"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnCow
+
+      "40":
+        name: "Spawn Chicken"
+        material: "MONSTER_EGG"
+        ID: "93"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnChicken
+
+      "42":
+        name: "Spawn Slime"
+        material: "MONSTER_EGG"
+        ID: "55"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnSlime
+
+  crafting_recipe_book31:
+    title: "&4&lCrafting Recipe Book &r&031"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book30
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book32
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Spawn Witch"
+        material: "MONSTER_EGG"
+        ID: "66"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnWitch
+
+      "13":
+        name: "Spawn Zombie Pigman"
+        material: "MONSTER_EGG"
+        ID: "57"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnZombiePigman
+
+      "15":
+        name: "Spawn Zombie"
+        material: "MONSTER_EGG"
+        ID: "54"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnZombie
+
+      "20":
+        name: "Spawn Skeleton"
+        material: "MONSTER_EGG"
+        ID: "51"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnSkeleton
+
+      "22":
+        name: "Spawn Spider"
+        material: "MONSTER_EGG"
+        ID: "52"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnSpider
+
+      "24":
+        name: "Spawn Cave Spider"
+        material: "MONSTER_EGG"
+        ID: "59"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnCaveSpider
+
+      "29":
+        name: "Spawn Ghast"
+        material: "MONSTER_EGG"
+        ID: "56"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnGhast
+
+      "31":
+        name: "Spawn Horse"
+        material: "MONSTER_EGG"
+        ID: "100"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnHorse
+
+      "33":
+        name: "Spawn Wolf"
+        material: "MONSTER_EGG"
+        ID: "95"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnWolf
+
+      "38":
+        name: "Spawn Magma Cube"
+        material: "MONSTER_EGG"
+        ID: "62"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnMagmaCube
+
+      "40":
+        name: "Spawn Guardian"
+        material: "MONSTER_EGG"
+        ID: "68"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnGuardian
+
+      "42":
+        name: "Spawn Silverfish"
+        material: "MONSTER_EGG"
+        ID: "60"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnSilverfish
+
+  crafting_recipe_book32:
+    title: "&4&lCrafting Recipe Book &r&032"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book31
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book33
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Spawn Enderman"
+        material: "MONSTER_EGG"
+        ID: "58"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnEnderman
+
+      "13":
+        name: "Spawn Rabbit"
+        material: "MONSTER_EGG"
+        ID: "101"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnRabbit
+
+      "15":
+        name: "Spawn Creeper"
+        material: "MONSTER_EGG"
+        ID: "50"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnCreeper
+
+      "20":
+        name: "Spawn Pig"
+        material: "MONSTER_EGG"
+        ID: "90"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnPig
+
+      "22":
+        name: "Spawn Villager"
+        material: "MONSTER_EGG"
+        ID: "120"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnVillager
+
+      "24":
+        name: "Spawn Ocelot"
+        material: "MONSTER_EGG"
+        ID: "98"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnOcelot
+
+      "29":
+        name: "Spawn Endermite"
+        material: "MONSTER_EGG"
+        ID: "67"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnEndermite
+
+      "31":
+        name: "Spawn Bat"
+        material: "MONSTER_EGG"
+        ID: "65"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnBat
+
+      "33":
+        name: "Spawn Squid"
+        material: "MONSTER_EGG"
+        ID: "94"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnSquid
+
+      "38":
+        name: "Spawn Blaze"
+        material: "MONSTER_EGG"
+        ID: "61"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:SpawnBlaze
+
+      "40":
+        name: "Tallgrass"
+        material: "DOUBLE_PLANT"
+        ID: "2"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Tallgrass
+
+      "42":
+        name: "Grass Block"
+        material: "GRASS"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:GrassBlock
+
+  crafting_recipe_book33:
+    title: "&4&lCrafting Recipe Book &r&033"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book32
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book34
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Bone"
+        material: "BONE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Bone
+
+      "13":
+        name: "Saddle"
+        material: "SADDLE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Saddle
+
+      "15":
+        name: "Netherrack"
+        material: "NETHERRACK"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Netherrack
+
+      "20":
+        name: "Sponge"
+        material: "SPONGE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Sponge
+
+      "22":
+        name: "Mycelium"
+        material: "MYCEL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Mycelium
+
+      "24":
+        name: "Dead Bush"
+        material: "DEAD_BUSH"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:DeadBush
+
+      "29":
+        name: "Ender Pearl"
+        material: "ENDER_PEARL"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:EnderPearl
+
+      "31":
+        name: "Water Bucket"
+        material: "WATER_BUCKET"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:WaterBucket
+
+      "33":
+        name: "Red Mushroom"
+        material: "RED_MUSHROOM"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:RedMushroom
+
+      "38":
+        name: "Gunpowder"
+        material: "SULPHUR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Gunpowder
+
+      "40":
+        name: "Sapling"
+        material: "SAPLING"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Sapling
+
+      "42":
+        name: "Test"
+        material: "AIR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Test
+
+  crafting_recipe_book34:
+    title: "&4&lCrafting Recipe Book &r&034"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book33
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book35
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Iron Tarpdoor"
+        material: "IRON_TRAPDOOR"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:IronTarpdoor
+
+      "13":
+        name: "Prismarine"
+        material: "PRISMARINE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:Prismarine
+
+      "15":
+        name: "Prismarine Bricks"
+        material: "PRISMARINE"
+        ID: "1"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= C:PrismarineBricks
+
+      '20':
+        name: 'C:Dirt'
+        material: 'DIRT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '22':
+        name: 'C:1x Compress Flint'
+        material: 'FLINT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '24':
+        name: 'C:2x Compress Flint'
+        material: 'FLINT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '29':
+        name: 'C:3x Compress Flint'
+        material: 'FLINT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '31':
+        name: 'C:Flint Singularity'
+        material: 'FLINT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '33':
+        name: 'C:1x Compress Diamond'
+        material: 'DIAMOND'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '38':
+        name: 'C:2x Compress Diamond'
+        material: 'DIAMOND'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '40':
+        name: 'C:3x Compress Diamond'
+        material: 'DIAMOND'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '42':
+        name: 'C:Diamond Singularity'
+        material: 'DIAMOND'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+  crafting_recipe_book35:
+    title: "&4&lCrafting Recipe Book &r&035"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book34
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book36
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      '11':
+        name: 'C:1x Compress Emerald'
+        material: 'EMERALD'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '13':
+        name: 'C:2x Compress Emerald'
+        material: 'EMERALD'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '15':
+        name: 'C:3x Compress Emerald'
+        material: 'EMERALD'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '20':
+        name: 'C:Emerald Singularity'
+        material: 'EMERALD'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '22':
+        name: 'C:1x Compress Gold'
+        material: 'GOLD_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '24':
+        name: 'C:2x Compress Gold'
+        material: 'GOLD_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '29':
+        name: 'C:3x Compress Gold'
+        material: 'GOLD_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '31':
+        name: 'C:Gold Singularity'
+        material: 'GOLD_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '33':
+        name: 'C:1x Compress Iron'
+        material: 'IRON_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '38':
+        name: 'C:2x Compress Iron'
+        material: 'IRON_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '40':
+        name: 'C:3x Compress Iron'
+        material: 'IRON_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '42':
+        name: 'C:Iron Singularity'
+        material: 'IRON_INGOT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+  crafting_recipe_book36:
+    title: "&4&lCrafting Recipe Book &r&036"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-47,49,51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= crafting_recipe_book35
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= crafting_recipe_book37
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      '11':
+        name: 'C:1x Compress Lapis Lazuli'
+        material: 'INK_SACK'
+        id: '4'
+        lore:
+          - '&eClick for more details.'
+
+      '13':
+        name: 'C:2x Compress Lapis Lazuli'
+        material: 'INK_SACK'
+        id: '4'
+        lore:
+          - '&eClick for more details.'
+
+      '15':
+        name: 'C:3x Compress Lapis Lazuli'
+        material: 'INK_SACK'
+        id: '4'
+        lore:
+          - '&eClick for more details.'
+
+      '20':
+        name: 'C:Lapis Lazuli Singularity'
+        material: 'INK_SACK'
+        id: '4'
+        lore:
+          - '&eClick for more details.'
+
+      '22':
+        name: 'C:1x Compress Coal'
+        material: 'COAL'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '24':
+        name: 'C:2x Compress Coal'
+        material: 'COAL'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '29':
+        name: 'C:3x Compress Coal'
+        material: 'COAL'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '31':
+        name: 'C:Coal Singularity'
+        material: 'COAL'
+        id: '0'
+        lore:
+          - '&eClick for more details.'
+
+      '33':
+        name: 'C:Flint'
+        material: 'FLINT'
+        id: '0'
+        lore:
+          - '&eClick for more details.'

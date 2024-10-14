@@ -1,0 +1,33 @@
+panels:
+  item_info_book:
+    title: "&3&lItem Info Book"
+    empty: STAINED_GLASS_PANE
+    emptyID: "15"
+    rows: "3"
+    item:
+      '10':
+        material: "EMERALD"
+        name: "&b&lItem Guide Book"
+        commands:
+          - open= item_guide_book1
+      '13':
+        material: "WORKBENCH"
+        name: "&c&lCrafting Recipe Book"
+        commands:
+          - open= crafting_recipe_book1
+      '16':
+        material: "FURNACE"
+        name: "&a&lSmelting Recipe Book"
+        commands:
+          - open= smelting_recipe_book1
+
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= skyblockmenu1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc

@@ -1,0 +1,12 @@
+panels:
+  quest_book1:
+    title: "&3&lSkyBlock menu"
+    rows: "6"
+    empty: STAINED_GLASS_PANE
+    emptyID: "15"
+    item:
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc

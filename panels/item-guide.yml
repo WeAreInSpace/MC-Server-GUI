@@ -1,0 +1,460 @@
+panels:
+  G:Cobblestone:
+    title: "&0&l>> &rCobblestone"
+    rows: '6'
+    animatevalue: '12'
+    item:
+      "0":
+        material: 'EMERALD'
+        name: "&f&lCobblestone"
+        lore:
+          - "   "
+          - "   &f&lInfo"
+          - "   &7 Cobblestone is a common block,   "
+          - "   &7 obtained from mining stone. It is   "
+          - "   &7 mainly used for crafting or as a   "
+          - "   &7 building block.   "
+          - "   "
+          - "   &f&lBreaking"
+          - "   &7 Cobblestone can be mined using   "
+          - "   &7 a pickaxe, in which case it drops   "
+          - "   &7 itself. If mined without a pickaxe   "
+          - "   &7 it drops nothing. Its hardness   "
+          - "   &7 is greater than stone so it requires   "
+          - "   &7 more time to break, especially with   "
+          - "   &7 anything other than a pickaxe.   "
+          - "   "
+          - "&7&lCredit: Minecraft Wiki ###"
+          - "&8&lWe Are In Space"
+      "36":
+        material: 'GRASS'
+        duplicate: "37-44"
+      "45":
+        material: 'DIRT'
+        duplicate: "46-47,49,51-53"
+
+      "33":
+        material: 'STONE'
+        animate0:
+          material: 'STONE'
+
+        animate1:
+          material: 'STONE'
+        animate2:
+          material: 'STONE'
+        animate3:
+          material: 'STONE'
+        animate4:
+          material: 'STONE'
+        animate5:
+          material: 'STONE'
+        animate6:
+          material: 'AIR'
+        animate7:
+          material: 'AIR'
+        animate8:
+          material: 'AIR'
+        animate9:
+          material: 'AIR'
+        animate10:
+          material: 'AIR'
+        animate11:
+          material: 'AIR'
+
+      "30":
+        material: cps= self
+        name: "&fI'm %player_name%."
+        animate0:
+          material: cps= self
+          name: "&fI'm %player_name%."
+
+        animate1:
+          material: 'AIR'
+        animate2:
+          material: 'AIR'
+        animate3:
+          material: 'AIR'
+        animate4:
+          material: 'AIR'
+        animate5:
+          material: 'AIR'
+        animate6:
+          material: 'AIR'
+        animate7:
+          material: 'COBBLESTONE'
+        animate8:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate9:
+          material: AIR
+        animate10:
+          material: AIR
+        animate11:
+          material: DIAMOND_PICKAXE
+
+      "31":
+        material: 'DIAMOND_PICKAXE'
+        animate0:
+          material: 'DIAMOND_PICKAXE'
+
+        animate1:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate2:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate3:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate4:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate5:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate6:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate7:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate8:
+          material: AIR
+        animate9:
+          material: AIR
+        animate10:
+          material: AIR
+        animate11:
+          material: AIR
+
+      '32':
+        material: 'AIR'
+        animate0:
+          material: 'AIR'
+        animate1:
+          material: 'DIAMOND_PICKAXE'
+        animate2:
+          material: 'DIAMOND_PICKAXE'
+          damage: 390
+        animate3:
+          material: 'DIAMOND_PICKAXE'
+          damage: 780
+        animate4:
+          material: 'DIAMOND_PICKAXE'
+          damage: 1170
+        animate5:
+          material: 'DIAMOND_PICKAXE'
+          damage: 1560
+        animate6:
+          material: 'COBBLESTONE'
+        animate7:
+          material: 'AIR'
+        animate8:
+          material: 'AIR'
+        animate9:
+          material: 'AIR'
+        animate10:
+          material: 'AIR'
+        animate11:
+          material: 'AIR'
+      
+      '27':
+        material: 'CHEST'
+
+      '29':
+        material: 'AIR'
+        animate0:
+          material: 'AIR'
+
+        animate1:
+          material: 'AIR'
+        animate2:
+          material: 'AIR'
+        animate3:
+          material: 'AIR'
+        animate4:
+          material: 'AIR'
+        animate5:
+          material: 'AIR'
+        animate6:
+          material: 'AIR'
+        animate7:
+          material: 'AIR'
+        animate8:
+          material: 'COBBLESTONE'
+        animate9:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate10:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate11:
+          material: cps= self
+          name: "&fI'm %player_name%."
+      
+      '28':
+        material: 'AIR'
+        animate0:
+          material: 'AIR'
+
+        animate1:
+          material: 'AIR'
+        animate2:
+          material: 'AIR'
+        animate3:
+          material: 'AIR'
+        animate4:
+          material: 'AIR'
+        animate5:
+          material: 'AIR'
+        animate6:
+          material: 'AIR'
+        animate7:
+          material: 'AIR'
+        animate8:
+          material: 'AIR'
+        animate9:
+          material: 'COBBLESTONE'
+        animate10:
+          material: 'DIAMOND_PICKAXE'
+        animate11:
+          material: 'AIR'
+
+      "16":
+        material: 'STONE'
+        duplicate: '17,24-26,33-35'
+
+
+      "48":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= item_guide_book1
+
+      "50":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+#  G:Test:
+#    title: "&2&lGuide&0&l>> &rLog"
+#    rows: '6'
+#    item:
+#      "0":
+#        material: 'EMERALD'
+#        name: "&f&lCobblestone"
+#        lore:
+#          - "   "
+#          - "   &f&l"
+#          - "   &7 Test   "
+#          - "   "
+#          - "&7&lCredit: Minecraft Wiki ###"
+#          - "&8&lWe Are In Space"
+#      "48":
+#        material: 'FEATHER'
+#        name: '&e&lBack'
+#        commands:
+#          - open= item-guide-book-1
+#
+#      "50":
+#        material: 'BARRIER'
+#        name: "&c&lClose"
+#        commands:
+#          - cpc
+
+
+  G:Ore:
+    title: "&0&l>> &rOre"
+    rows: '6'
+    animatevalue: '8'
+    item:
+      "0":
+        material: 'EMERALD'
+        name: "&f&lCobblestone"
+        lore:
+          - "   &f&l   "
+          - "   &7 Test   "
+          - "   "
+          - "&7&lCredit: Minecraft Wiki ###"
+          - "&8&lWe Are In Space"
+      "1":
+        material: STAINED_GLASS_PANE
+      "2":
+        material: STAINED_GLASS_PANE
+      "5":
+        material: STAINED_GLASS_PANE
+      "6":
+        material: STAINED_GLASS_PANE
+      "10":
+        material: LEAVES
+      "11":
+        material: STAINED_GLASS_PANE
+      "12":
+        material: STAINED_GLASS_PANE
+      "14":
+        material: STAINED_GLASS_PANE
+      "16":
+        material: STAINED_GLASS_PANE
+      "18":
+        material: LEAVES
+      "19":
+        material: LOG
+      "20":
+        material: LEAVES
+      "24":
+        material: LAVA_BUCKET
+      "28":
+        material: LOG
+      
+      "29":
+        material: cps= self
+        name: "&fI'm %player_name%."
+        animate0:
+          material: cps= self
+          name: "&fI'm %player_name%."
+
+        animate1:
+          material: AIR
+        animate2:
+          material: AIR
+        animate3:
+          material: AIR
+        animate4:
+          material: AIR
+        animate5:
+          material: AIR
+        animate6:
+          material: 'AIR'
+        animate7:
+          material: AIR
+        animate8:
+          material: AIR
+
+      "30":
+        material: DIAMOND_PICKAXE
+        animate0:
+          material: DIAMOND_PICKAXE
+
+        animate1:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate2:
+          material: AIR
+        animate3:
+          material: AIR
+        animate4:
+          material: AIR
+        animate5:
+          material: AIR
+        animate6:
+          material: AIR
+        animate7:
+          material: AIR
+        animate8:
+          material: cps= self
+
+      "31":
+        material: AIR
+        animate0:
+          material: AIR
+
+        animate1:
+          material: DIAMOND_PICKAXE
+        animate2:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate3:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate4:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate5:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate6:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate7:
+          material: cps= self
+          name: "&fI'm %player_name%."
+        animate8:
+          material: DIAMOND
+
+      "32":
+        material: AIR
+        animate0:
+          material: AIR
+        animate1:
+          material: AIR
+        animate2:
+          material: 'DIAMOND_PICKAXE'
+        animate3:
+          material: 'DIAMOND_PICKAXE'
+          damage: 390
+        animate4:
+          material: 'DIAMOND_PICKAXE'
+          damage: 780
+        animate5:
+          material: 'DIAMOND_PICKAXE'
+          damage: 1170
+        animate6:
+          material: 'DIAMOND_PICKAXE'
+          damage: 1560
+        animate7:
+          material: DIAMOND
+        animate8:
+          material: AIR
+
+      "33":
+        material: DIAMOND_ORE
+        animate7:
+          material: AIR
+
+      "34":
+        material: WATER_BUCKET
+      "36":
+        material: GRASS
+      "37":
+        material: GRASS
+      "38":
+        material: GRASS
+      "39":
+        material: GRASS
+      "40":
+        material: GRASS
+      "41":
+        material: GRASS
+      "42":
+        material: GRASS
+      "43":
+        material: GRASS
+      "44":
+        material: GRASS
+      "45":
+        material: STONE
+      "46":
+        material: DIAMOND_ORE
+      "47":
+        material: STONE
+      "49":
+        material: STONE
+      "51":
+        material: STONE
+      "52":
+        material: LAPIS_ORE
+      "53":
+        material: STONE
+
+      "48":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= item_guide_book1
+      "50":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc

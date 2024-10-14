@@ -1,0 +1,947 @@
+panels:
+  CommandPalette1:
+    perm: default
+    rows: "5"
+    title: "Command Palette &91"
+    empty: AIR
+    commands:
+      - sm cps 1
+      - sm command-palette 1
+      - skyblockmenu command-palette 1
+      - skyblockmenu cps 1
+      - sm cps
+      - sm command-palette
+      - skyblockmenu command-palette
+      - skyblockmenu cps
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-40,42"
+      #-------------------------------------------------------------
+      "11":
+        material: compass
+        name: "&bServer teleport /stp"
+        lore:
+          - ""
+          - "   &fClick to open &nServer Teleport   "
+          - "   &dYou can use &nServer Teleport   "
+          - "   &dTo teleport to other server   "
+          - ""
+        commands:
+          - open= ServerTeleport(CommandPalette)
+      "20":
+        name: "&bSethome /sethome"
+        material: BED
+        lore:
+          - ""
+          - "  &fคลิกเพื่อ Sethome (กำหนดที่อยู่บ้าน)  "
+          - "  &dคุณสามารถกำหนดที่อยู่บ้าน"
+          - "  &dการกำหนดที่อยู่บ้านจะทำให้คุณเทเลพอร์ตกลับบ้านได้  "
+          - "  &dโดยใช้คำสั้ง /home"
+          - "  &dการกำหนดที่อยู่บ้านจะกำหนด ณ ตำแหน่งปัจจุบันของคุณ  "
+          - ""
+        commands:
+          - sethome
+          - "cpc"
+      "29":
+        name: "&bHome /home"
+        material: "BEACON"
+        lore:
+          - ""
+          - "  &fHome (บ้าน)"
+          - "  &dคลิกเพื่อเทเลพอร์ตไปยังบ้าน  "
+          - "  &dคุณสามารถเทเลพอร์ตไปยังบ้านของคุณ  "
+          - ""
+          - "  &c&nโน้ต:&r&e คุณจำเป็นจะต้องกำหนดที่อยู่บ้านของคุณก่อนที่คุณจะเทเลพอร์ต  "
+          - ""
+          - "  &dคุณสามารถกำหนดที่อยู่บ้านได้"
+          - "  &dโดยใช้คำสั่ง /sethome"
+          - ""
+        commands:
+          - home
+          - "cpc"
+      "13":
+        name: "&bDiscord /discord"
+        material: "INK_SACK"
+        ID: "4"
+        lore:
+          - ""
+          - "  &fDiscord (ดิสคอร์ด)  "
+          - "  &dคลิกเพื่อรับลิงก์เข้าดิสคอร์ด  "
+          - ""
+        commands:
+          - discord
+          - "cpc"
+      "22":
+        name: "&bSand Mail /sendto <player_name>"
+        material: BOOK_AND_QUILL
+        lore:
+          - ""
+          - "  &fSand Mail (ส่งจดหมาย)  "
+          - "  &dคลิกเพื่อส่งไอเทมในมือคุณ ให้ผู้เล่นที่คุณต้องการส่ง  "
+          - ""
+        commands:
+          - "cpc"
+          - "msg= กรุณาป้อนชื่อผู้เล่นลงในช่องแชท"
+        player-input:
+          - "sendto %cp-player-input%"
+          - "open= CommandPalette1"
+      "31":
+        name: "&bMail Box /mail"
+        material: "FEATHER"
+        lore:
+          - ""
+          - "  &fMail Box (กล่องจดหมาย) "
+          - "  &dคลิกเพื่อเปิดกล่องจดหมาย  "
+          - ""
+        commands:
+          - cpc
+          - mail
+      "15":
+        material: NETHER_STAR
+        name: "&bSpawn /spawn"
+        lore:
+          - ""
+          - "  &fSpawn (จุดเกิด)  "
+          - "  &dคลิกเพื่อเทเลพอร์ตไปยัง Lobby  "
+          - ""
+        commands:
+          - "spawn"
+          - "cpc"
+      "24":
+        material: PAPER
+        enchanted:
+          - true
+        name: "&bMessage /msg <player_name> <message>"
+        lore:
+          - ""
+          - "  &fMessage (ข้อความ)  "
+          - "  &dคลิกเพื่อส่งข้อความหาผู้เล่น  "
+          - "  &dการส่งข้อความด้วยวิธีนี้ จะเป็นการส่งแบบส่วนตัว  "
+          - ""
+          - "  &c&nโน้ต:&r &eคุณสามารถใช้รหัสสี เพื่อใส่สีตัวอักษรได้  "
+          - "  &eตัวอย่าง &f&n & c &r&f Hello world!"
+          - "  &eข้อความที่ได้ก็จะเป็น &cHello world!"
+          - ""
+        commands:
+          - msg= กรุณาป้อนชื่อผู้เล่น เว้นวรรค และป้อนข้อความที่ต้องการส่งลงในช่องแชท
+          - cpc
+        player-input:
+          - msg %cp-player-input%
+          - open= CommandPalette1
+      "33":
+        material: GRASS
+        ID: 2
+        name: "&bIsland /island"
+        lore:
+          - ""
+          - "  &fIsland (เกาะ)  "
+          - "  &dคลิ๊กเพิ่อเปิดเมนู Sky block ของคุณ  "
+          - "  &dหรือเทเลพอร์ตไปยังเกาะของคุณ  "
+          - "  &dคำสั่งนี้จะมี 2 รูปแบบ คือ เปิดเมนู หรือ เทเลพอร์ต  "
+          - "  &dสามารถเปลี่ยนรูปแบบโดยใช้คำสั่ง /island panel toggle  "
+          - ""
+        commands:
+          - island
+          - cpc
+      #-------------------------------------------------------------
+      "41":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= CommandPalette2
+      #-------------------------------------------------------------
+      "43":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= skyblockmenu1
+
+      "44":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+
+  CommandPalette2:
+    perm: default
+    rows: "5"
+    title: "Command Palette &92"
+    empty: AIR
+    commands:
+      - sm cps 2
+      - sm command-palette 2
+      - skyblockmenu command-palette 2
+      - skyblockmenu cps 2
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-38,40,42"
+      #-------------------------------------------------------------
+      "11":
+        name: "&bIsland accept /island accept"
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5ODBjMWQyMTE4MDlhOWI2NTY1MDg4ZjU2YTM4ZjJlZjQ5MTE1YzEwNTRmYTY2MjQ1MTIyZTllZWVkZWNjMiJ9fX0=
+        lore:
+          - ""
+          - "  &fIsland accept  "
+          - "  &dคลิกเพื่อยอมรับคำเชิญ  "
+          - ""
+          - "  &dหลังจากผู้เล่นเชิญคุณเข้าเกาะของเขา  "
+          - "  &dด้ายคำสั่ง /island invite แล้ว  "
+          - "  &dคุณจะต้องยอมรับคำเชิญเพื่อเข้าร่วมเกาะของพวกเขา  "
+          - ""
+        commands:
+          - cpc
+          - "island accept"
+      "20":
+        name: "&bIsland balance /island balance"
+        material: EMERALD
+        lore:
+          - ""
+          - "  &fIsland balance  "
+          - "  &dคลิกเช็กยอดเงิน"
+          - ""
+        commands:
+          - cpc
+          - "island balance"
+      "29":
+        name: "&bIsland ban player /island ban <player_name>"
+        material: NAME_TAG
+        lore:
+          - ""
+          - "  &fIsland ban (แบนผู้เล่น)  "
+          - "  &dคลิกเพื่อแบนผู้เล่นในโหมดผู้เล่นหลายคน  "
+          - "  &dหากต้องการปลดแบนให้คุณใช้คำสั่ง  "
+          - "  &d/island pardon <player_name>  "
+          - ""
+        commands:
+          - cpc
+          - "msg= กรุณาป้อนชื่อผู้เล่นลงในช่องแชท"
+        player-input:
+          - island ban %cp-player-input%
+          - open= CommandPalette2
+      "13":
+        name: "&bIsland bank /island bank"
+        material: PAPER
+        lore:
+          - ""
+          - "  &fIsland bank  "
+          - "  &dคลิกเพื่อเปิดเมนูธนาคารของเกาะ  "
+          - ""
+          - "  &dการฝากเงินจะฝากเงิน &6&lWAIS Coin  "
+          - ""
+        enchanted:
+          - true
+        commands:
+          - cpc
+          - "island bank"
+      "22":
+        name: "&bIsland bank log(s) /island bank logs"
+        material: MAP
+        lore:
+          - ""
+          - "  &fIsland bank log(s) (บันทึกธนาคาร)  "
+          - "  &dคลิกเพื่อเปิดบันทึกประวัตการฝาก - ถอนเงิน  "
+          - ""
+        commands:
+          - cpc
+          - "island bank logs"
+      "31":
+        name: "&bIsland biome settings /island biome"
+        material: SAPLING
+        lore:
+          - ""
+          - "  &fIsland biome settings (ตั้งค่าไบโอมของเกาะ)  "
+          - "  &dคลิกเพื่อเปิดเมนูตั้งค่าไบโอมของเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - "island biome"
+      "15":
+        name: "&bIsland border settings /island border"
+        material: GLASS
+        lore:
+          - ""
+          - "  &fIsland border settings (ตั้งค่า World Border ของเกาะ)  "
+          - "  &dคลิกเพื่อเปิดเมนูการตั้งค่า World Border ของเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - "island border"
+      "24":
+        material: BARRIER
+        name: "&bIsland close /island close"
+        lore:
+          - ""
+          - "  &fIsland close  "
+          - "  &dคลิกเพื่อเปลี่ยนจาก เกาะสาธารณะ ไปยัง เกาะส่วนตัว  "
+          - ""
+        commands:
+          - cpc
+          - "island close"
+      "33":
+        material: ENDER_PEARL
+        name: "&bTeleport to your island /island tp"
+        lore:
+          - ""
+          - "  &fTeleport to your island (เทเลพอร์ตไปที่เกาะของคุณ)  "
+          - "  &dคลิกเพื่อเทเลพอร์ตไปที่เกาะของคุณ  "
+          - ""
+        commands:
+          - cpc
+          - "island teleport"
+      #-------------------------------------------------------------
+      "39":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= CommandPalette1
+      "41":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= CommandPalette3
+      #-------------------------------------------------------------
+      "43":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= skyblockmenu1
+
+      "44":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+
+  CommandPalette3:
+    perm: default
+    rows: "5"
+    title: "Command Palette &93"
+    empty: AIR
+    commands:
+      - sm cps 3
+      - sm command-palette 3
+      - skyblockmenu command-palette 3
+      - skyblockmenu cps 3
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-38,40,42"
+      #-------------------------------------------------------------
+      "11":
+        name: "&bIsland delete warp /island delwarp <warp_name>"
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUwZmQxMDE5OWU4ZTRmY2RhYmNhZTRmODVjODU5MTgxMjdhN2M1NTUzYWQyMzVmMDFjNTZkMThiYjk0NzBkMyJ9fX0=
+        lore:
+          - ""
+          - "  &fIsland delete warp  (ลบวาร์ปของเกาะ)  "
+          - "  &dคลิกเพื่อลบวาร์ปของเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - "msg= กรุณาป้อนชื่อวาร์ป"
+        player-input:
+          - "island delwarp %cp-player-input%"
+          - "open= CommandPalette3"
+      "20":
+        name: "&bIsland demote /island demote <player_name>"
+        lore:
+          - ""
+          - "  &fIsland demote  "
+          - "  &dคลิกเพื่อลดระดับผู้เล่นในเกาะของคุณ  "
+          - ""
+        material: ARROW
+        commands:
+          - cpc
+          - "msg= กรุณาป้อนชื่อผู้เล่น"
+        player-input:
+          - island demote %cp-player-input%
+          - open= CommandPalette3
+      "29":
+        name: "&bIsland deposit /island deposit <amount>"
+        material: EMERALD_BLOCK
+        lore:
+          - ""
+          - "  &fIsland deposit (ฝากเงิน)  "
+          - "  &dคลิกเพื่อฝากเงินเข้าธนาคารของเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนจำนวนเงิน
+        player-input:
+          - island deposit %cp-player-input%
+          - open= CommandPalette3
+      "13":
+        name: "&bIsland disband /island disband"
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUwZmQxMDE5OWU4ZTRmY2RhYmNhZTRmODVjODU5MTgxMjdhN2M1NTUzYWQyMzVmMDFjNTZkMThiYjk0NzBkMyJ9fX0=
+        lore:
+          - ""
+          - "  &fIsland disband (ยุบเกาะ + ลบเกาะ)  "
+          - "  &dคลิกเพื่อ ยุบเกาะ + ลบเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - island disband
+      "22":
+        material: STICK
+        enchanted:
+          - true
+        name: "&b/island expel <player_name>"
+        lore:
+          - ""
+          - "  &fเตะผู้ชมออกจากเกาะ  "
+          - "  &dคลิกเพื่อเตะผู้ชมออกจากเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่น
+        player-input:
+          - island expel %cp-player-input%
+          - open= CommandPalette3
+      "31":
+        material: NETHER_STAR
+        name: "&bIsland help /island help [page]"
+        lore:
+          - ""
+          - "  &dคลิกเพื่อเปิดคำแนะนำคำสั่งต่าง ๆ ของเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนเลขหน้า
+        player-input:
+          - island help %cp-player-input%
+          - open= CommandPalette3
+      "15":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA1NmJjMTI0NGZjZmY5OTM0NGYxMmFiYTQyYWMyM2ZlZTZlZjZlMzM1MWQyN2QyNzNjMTU3MjUzMWYifX19
+        name: "&bIsland invite /island invite <player_name>"
+        lore:
+          - ""
+          - "  &fIsland invite (เชิญผู้เล่นเข้าเกาะ)  "
+          - "  &dคลิกเพื่อเชิญผู้เล่นเข้าเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่น
+        player-input:
+          - island invite %cp-player-input%
+          - open= CommandPalette3
+      "24":
+        material: BARRIER
+        name: "&bIsland kick player /island kick <player_name>"
+        lore:
+          - ""
+          - "  &fIsland kick (เตะผู้เล่นออกจากเกาะ)  "
+          - "  &dคลิกเพื่อเตะผู้เล่นออกจากเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่น
+        player-input:
+          - island kick %cp-player-input%"
+          - open= CommandPalette3
+      "33":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhZjIxN2FlZGRmMGY0MDA2NDk2OWViYjIwNDJmN2FlYWZiYzdkMGYxNzVhMjc2MjQxMzNhM2JlZmQxMDI4MSJ9fX0=
+        name: "&bIsland leave /island leave"
+        lore:
+          - ""
+          - "  &fIsland leave (ออกจากเกาะ)  "
+          - "  &dคลิกเพื่อเตะตัวเองออกจากเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - island leave
+      #-------------------------------------------------------------
+      "39":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= CommandPalette2
+      "41":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= CommandPalette4
+      #-------------------------------------------------------------
+      "43":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= skyblockmenu1
+
+      "44":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+  CommandPalette4:
+    perm: default
+    rows: "5"
+    title: "Command Palette &94"
+    commands:
+      - sm cps 4
+      - sm command-palette 4
+      - skyblockmenu command-palette 4
+      - skyblockmenu cps 4
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-38,40,42"
+      #-------------------------------------------------------------
+      "11":
+        name: "&bIsland members settings /island members"
+        lore:
+          - ""
+          - "  &fIsland members settings (ตั้งค่าสมาชิกในเกาะ)  "
+          - "  &dคลิกเพื่อเปิดการตั้งค่าสมาชิกในเกาะ  "
+          - ""
+        material: WRITTEN_BOOK
+        commands:
+          - cpc
+          - island members
+      "20":
+        name: "&b/island open"
+        material: EYE_OF_ENDER
+        lore:
+          - ""
+          - "  &dคลิกเพื่อเปลี่ยนจาก เกาะส่วนตัว เป็น เกาะศาธารณะ  "
+          - ""
+        commands:
+          - island open
+      "29":
+        material: NETHER_STAR
+        lore:
+          - ""
+          - "  &dคลิกเพื่อเปิดเมนูเกาะ  "
+          - ""
+        name: "&bIsland panel /island panel"
+        commands:
+          - cpc
+          - island panel
+      "13":
+        material: INK_SACK
+        ID: 10
+        name: "&bIsland panel toggle /island panel toggle"
+        lore:
+          - ""
+          - "  &fIsland panel toggle (สลับเมนูการตั้งค่าเกาะ)  "
+          - "  &dคลิกเพื่อสลับการตั้งค่าเกาะ  "
+          - "  &dจากเมนูเกาะ เป็น เทเลพอร์ตไปยังเกาะ  "
+          - "  &dหรือ เทเลพอร์ตไปยังเกาะ เป็น เมนูเกาะ  "
+          - ""
+        commands:
+          - island panel toggle
+      "22":
+        material: NAME_TAG
+        name: "&bUnban a player /island pardon <player_name>"
+        lore:
+          - ""
+          - "  &fUnban a player (ปลดแบนผู้เล่นในเกาะ)  "
+          - "  &dคลิกเพื่อปลดแบนผู้เล่น ที่คุณแบน  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่น
+        player-input:
+          - island pardon %cp-player-input%
+          - open= CommandPalette4
+        enchanted:
+          - true
+      "31":
+        material: REDSTONE_COMPARATOR
+        lore:
+          - ""
+          - "  &fIsland permissions controller (ควบคุมการอนุญาตเกาะ)  "
+          - "  &dคลิกเพื่อควบคุมการอนุญาตสิ่งต่าง ๆ ภายในเกาะของคุณ  "
+          - ""
+        name: "Island permissions controller /island permissions"
+        commands:
+          - cpc
+          - island permissions
+      "15":
+        material: "GLOWSTONE_DUST"
+        name: "&b/island permissions [player_name]"
+        lore:
+          - ""
+          - "  &dคลิกเพื่อจัดการสิทธิของสมาชิกในเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่น
+        player-input:
+          - island permissions %cp-player-input%
+          - open= CommandPalette4
+      "24":
+        material: MILK_BUCKET
+        name: "&bReset your island permissions /island permissions [reset]"
+        lore:
+          - ""
+          - "  &fReset your island permissions (รีเซ็ตสิทธิของคุณ)  "
+          - "  &dคลิกเพื่อรีเซ็ตสิทธิในเกาะของคุณ เป็นค่าเริ่มต้น  "
+          - ""
+        commands:
+          - cpc
+          - island permissions reset
+      "33":
+        material: LAVA_BUCKET
+        lore:
+          - ""
+          - "  &fReset member permissions (รีเซ็ตสิทธิของสมาชิกในเกาะ)  "
+          - "  &bคลิกเพื่อรีเซ็ตสิทธิของสมาชิกในเกาะให้เป็นค่าเริ่มต้น  "
+          - ""
+        enchanted:
+          - true
+        name: "&bReset member permissions /island permissions <player_name> reset"
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่น
+        player-input:
+          - island permissions %player_name%" reset
+          - open= CommandPalette4
+      #-------------------------------------------------------------
+      "39":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= CommandPalette3
+      "41":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= CommandPalette5
+      #-------------------------------------------------------------
+      "43":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= skyblockmenu1
+
+      "44":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+  #***********************************************************************************************************************
+  #***********************************************************************************************************************
+  #***********************************************************************************************************************
+  CommandPalette5:
+    perm: default
+    rows: "5"
+    title: "Command Palette &95"
+    commands:
+      - sm cps 5
+      - sm command-palette 5
+      - skyblockmenu command-palette 5
+      - skyblockmenu cps 5
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-38,40,42"
+      #-------------------------------------------------------------
+      "11":
+        material: COMMAND
+        name: "&b/island recalc"
+        lore:
+          - ""
+          - "  &dคลิกเพื่อคำณวนมูลค่าเกาะอีกครั้ง  "
+          - ""
+        commands:
+          - cpc
+          - island recalc
+      "20":
+        material: ENDER_CHEST
+        name: "&bSet island teleport location /island setteleport"
+        lore:
+          - ""
+          - "  &fSet island teleport location (เปลี่ยนตำแหน่งที่คุณจะเทเลพอร์ตไปยังเกาะ)"
+          - "  &dคลิกเพื่อเปลี่ยนตำแหน่งที่คุณจะเทเลพอร์ตไปยังเกาะของคุณ  "
+          - "  &dคุณจะต้องอยู่ในเกาะของคุณ และการตั้งค่า จะตั้งค่า ณ ตำแหน่งปัจุบันของคุณ  "
+          - ""
+        commands:
+          - cpc
+          - island setteleport
+      "29":
+        material: DIODE
+        name: "&bOpen island settings /island settings"
+        lore:
+          - ""
+          - "  &fOpen island settings (เปิดการตั้งค่าเกาะ)  "
+          - "  &dคลิกเพื่อเปิดการตั้งค่าเกาะของคุณ  "
+          - ""
+        commands:
+          - cpc
+          - island settings
+      "13":
+        material: INK_SACK
+        ID: 10
+        name: "&bShow island info /island show && /island info"
+        lore:
+          - ""
+          - "  &fShow island info (แสดงข้อมูลของเกาะ)  "
+          - "  &dคลิกเพื่อแสดงข้อมูลของเกาะของคุณ  "
+          - ""
+        commands:
+          - cpc
+          - island info
+      "22":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        name: "&bShow team info /island team"
+        lore:
+          - ""
+          - "  &fShow team info (แสดงข้อมูลของทีม)  "
+          - "  &dคลิกเพื่อแสดงข้อมูลของทีมของคุณ  "
+          - ""
+        commands:
+          - cpc
+          - island team
+      "31":
+        material: BOOK_AND_QUILL
+        name: "&bToggle private team chat /island teamchat"
+        lore:
+          - ""
+          - "  &fToggle private team chat (สลับการแชท)  "
+          - "  &dคลิกเพื่อเปลี่ยนจาก แชทสาธารณะ เป็น แชทส่วนตัวเฉพาะในทีม  "
+          - "  &dหรือเปลี่ยนจาก แชทส่วนตัวเฉพาะในทีม เป็น แชทสาธารณะ  "
+          - ""
+        commands:
+          - island teamchat
+      "15":
+        material: BOOK
+        name: "&b/island teamchat [message]"
+        lore:
+          - ""
+          - "  &dคลิกเพื่อส่งข้อความส่วนตัวเฉพาะในทีมเท่านั้น  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนข้อความลงในช่องแชท
+        player-input:
+          - island teamchat %cp-player-input%
+          - open= CommandPalette5
+      "24":
+        material: IRON_BLOCK
+        lore:
+          - ""
+          - "  &fOpen top islands panel (เปิดหน้าแสดงอันดับเกาะ)  "
+          - "  &dคลิกเพื่อเปิดหน้าแสดงอันดับคะแนนเกาะที่มีมูลค่าสูงสุด  "
+          - ""
+        enchanted:
+          - true
+        name: "&bOpen top islands panel /island top"
+        commands:
+          - cpc
+          - island top
+      "33":
+        material: DIAMOND
+        enchanted:
+          - true
+        name: "&bTransfer your island's leadership /island transfer <player_name>"
+        lore:
+          - ""
+          - "  &fTransfer your island's leadership (โอนสิทธิผู้นำเกาะให้ผู้เล่นคนอื่น)  "
+          - "  &dคลิกเพื่อโอนสิทธิผู้นำเกาะให้ผู้เล่นคนอื่น  "
+          - ""
+          - "  &dใช้ในกรณีคุณจะโอนเกาะให้ผู้เล่นคนอื่นดูแลต่อ  "
+          - "  &dหรือ คุณอยากจะออกจากเกาะของตัวเอง  "
+          - "  &dหรือ อื่น ๆ ..  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่นลงในช่องแชท
+        player-input:
+          - island transfer %cp-player-input%
+          - open= CommandPalette5
+      #-------------------------------------------------------------
+      "39":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= CommandPalette4
+      "41":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= CommandPalette6
+      #-------------------------------------------------------------
+      "43":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= skyblockmenu1
+
+      "44":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+  #************************************************************************************************************************
+
+  CommandPalette6:
+    commands:
+      - sm cps 6
+      - sm command-palette 6
+      - skyblockmenu command-palette 6
+      - skyblockmenu cps 6
+    perm: default
+    rows: "5"
+    title: "Command Palette &96"
+    empty: AIR
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-42"
+      #-------------------------------------------------------------
+      "11":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdkYTliMmRiM2M1YmUxZTFmNmUxYzJmM2U3MTljMjBiZThhNjY0OGEwODdmYTQ1NDI4NGMyMjFhZDVhOWI3OCJ9fX0=
+        name: "&bIsland upgrade /island upgrade"
+        lore:
+          - ""
+          - "  &fIsland upgrade (อัพเกรดเกาะ)  "
+          - "  &dคลิกเพื่อเปิดเมนูอัพเกรดเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - island upgrade
+      "20":
+        material: DOUBLE_PLANT
+        enchanted:
+          - true
+        name: "&b/island value <material>"
+        lore:
+          - ""
+          - "  &dคลิกเพื่อหามูลค่าของบล็อก  "
+          - "  &dมูลค่าของบล็อกจะถูกนับรวมกันกับมูลค่าของเกาะ  "
+          - "  &dโดยมูลค่าของบล็อกจะถูกรวมกับมูลค่าของเกาะต่อเมื่อ  "
+          - "  &dคุณวางบล็อกนั้น ๆ ลงในเกาะของคุณ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อ Material สามารถหา Mattirial ได้ที่https://helpch.at/docs/1.12.2/org/bukkit/Material.html
+        player-input:
+          - island value %cp-player-input%
+          - open= CommandPalette6
+      "29":
+        material: EYE_OF_ENDER
+        name: "&bTeleport to the visitors location /island visit <player_name>"
+        lore:
+          - ""
+          - "  &fTeleport to the visitors location (เทเลพอร์ตไปยังสถานที่ของผู้เยี่ยมชม)  "
+          - "  &dคลิกเพื่อเทเลพอร์ตไปยังสถานที่ของผู้เยี่ยมชม บนเกาะของผู้เล่นคนอื่น  "
+          - "  &dสถานที่ของผู้เยี่ยมชม จะอยู่บริเวณป้ายที่เขียนว่า [welcome]  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อผู้เล่น
+        player-input:
+          - island visit %cp-player-input%
+          - open= CommandPalette6
+      "13":
+        material: NETHER_STAR
+        name: "&bOpen the visitors menu /island visitors"
+        lore:
+          - ""
+          - "  &fOpen the visitors menu (เปิดเมนูผู้ชม)  "
+          - "  &dคลิกเพื่อเปิดเมนูจัดการผู้เยี่ยมชมในเกาะของคุณ  "
+          - ""
+        commands:
+          - cpc
+          - island visitors
+      "22":
+        material: ENDER_PEARL
+        name: "&bWarp to an island warp /island warp [warp_name]"
+        lore:
+          - ""
+          - "  &fWarp to an island warp (วาร์ปไปยังเกาะ)  "
+          - "  &dคลิกเพื่อวาร์ปไปยังเกาะ  "
+          - "  &dโดยการวาร์ปจะวาร์ปไปยังบริเวณป้ายที่เขียนว่า [warp]"
+          - "  &dชื่อวาร์ปจะอยู่ บริเวณบรรทัดที่ 2 ของป้าย"
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนชื่อวาร์ป
+        player-input:
+          - island warp %cp-player-input%
+          - open= CommandPalette6
+      "31":
+        material: REDSTONE
+        name: "&b/island withdraw"
+        lore:
+          - ""
+          - "  &dคลิกเพื่อถอนเงินจากธนาคารเกาะ  "
+          - ""
+        commands:
+          - cpc
+          - msg= กรุณาป้อนจำนวนเงิน ที่ต้องการจะถอน
+        player-input:
+          - island withdraw %cp-player-input%
+          - open= CommandPalette6
+      "15":
+        name: "&bOpen the warps menu /island warps"
+        material: EYE_OF_ENDER
+        lore:
+          - ""
+          - "  &fOpen the warps menu (เปิดเมนูวาร์ป)  "
+          - "  &dคลิกเพื่อเปิดเมนูวาร์ป  "
+          - ""
+        enchanted:
+          - true
+        commands:
+          - cpc
+          - "island warps"
+      "24":
+        material: ENDER_STONE
+        enchanted:
+          - true
+        name: "WAIS Help /wais"
+        lore:
+          - ""
+          - "  &fWAIS Help ( เมนูช่วยเหลือของ We are in space. Network )  "
+          - "  &dคลิกเพื่อเปิดเมนูช่วยเหลือของ WAIS Network  "
+          - ""
+      #-------------------------------------------------------------
+      "39":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= CommandPalette5
+      #-------------------------------------------------------------
+      "43":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= skyblockmenu1
+
+      "44":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc

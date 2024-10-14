@@ -1,0 +1,3115 @@
+{
+    "panels": {
+        "B:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&2&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_YELLOW_FLOWER:0*10 1"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:0*11 1"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:1*12 1"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:2*13 1"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:3*14 1"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:4*15 1"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:5*16 1"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:6*19 1"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:7*20 1"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_RED_ROSE:8*21 1"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_SAPLING:0*22 1"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_SAPLING:1*23 1"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_SAPLING:2*24 1"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_SAPLING:3*25 1"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_SAPLING:4*28 1"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 16",
+                        "give-item= custom_SAPLING:5*29 1"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "GLOWSTONE_DUST",
+                    "commands": [
+                        "open= S:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&a> &lMode &rbuy  ",
+                        "  &r&lMode &rSell  ",
+                        "",
+                        "  &r&lPrice &r1  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= B16:DevidFlowersShop1",
+                        "right= open= B64:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&a> &lPrice &r1  ",
+                        "  &r&lPrice &r16  ",
+                        "  &r&lPrice &r32  ",
+                        "  &r&lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        },
+        "B16:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&2&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_YELLOW_FLOWER:0*10 16"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:0*11 16"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:1*12 16"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:2*13 16"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:3*14 16"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:4*15 16"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:5*16 16"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:6*19 16"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:7*20 16"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_RED_ROSE:8*21 16"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_SAPLING:0*22 16"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_SAPLING:1*23 16"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_SAPLING:2*24 16"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_SAPLING:3*25 16"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_SAPLING:4*28 16"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 230.4",
+                        "give-item= custom_SAPLING:5*29 16"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 16  ",
+                        "  &ePrice: 230.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "GLOWSTONE_DUST",
+                    "commands": [
+                        "open= S16:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&a> &lMode &rbuy  ",
+                        "  &r&lMode &rSell  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= B32:DevidFlowersShop1",
+                        "right= open= B:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lPrice &r1  ",
+                        "  &r&a> &lPrice &r16  ",
+                        "  &r&lPrice &r32  ",
+                        "  &r&lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        },
+        "B32:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&2&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_YELLOW_FLOWER:0*10 32"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:0*11 32"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:1*12 32"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:2*13 32"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:3*14 32"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:4*15 32"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:5*16 32"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:6*19 32"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:7*20 32"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_RED_ROSE:8*21 32"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_SAPLING:0*22 32"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_SAPLING:1*23 32"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_SAPLING:2*24 32"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_SAPLING:3*25 32"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_SAPLING:4*28 32"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 460.8",
+                        "give-item= custom_SAPLING:5*29 32"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 460.8  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "GLOWSTONE_DUST",
+                    "commands": [
+                        "open= S32:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&a> &lMode &rbuy  ",
+                        "  &r&lMode &rSell  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= B64:DevidFlowersShop1",
+                        "right= open= B16:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lPrice &r1  ",
+                        "  &r&lPrice &r16  ",
+                        "  &r&a> &lPrice &r32  ",
+                        "  &r&lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        },
+        "B64:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&2&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_YELLOW_FLOWER:0*10 64"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:0*11 64"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:1*12 64"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:2*13 64"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:3*14 64"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:4*15 64"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:5*16 64"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:6*19 64"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:7*20 64"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_RED_ROSE:8*21 64"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_SAPLING:0*22 64"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_SAPLING:1*23 64"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_SAPLING:2*24 64"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_SAPLING:3*25 64"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_SAPLING:4*28 64"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "paywall= 921.6",
+                        "give-item= custom_SAPLING:5*29 64"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lBuy",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 921.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "GLOWSTONE_DUST",
+                    "commands": [
+                        "open= S64:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&a> &lMode &rbuy  ",
+                        "  &r&lMode &rSell  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= B:DevidFlowersShop1",
+                        "right= open= B32:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lPrice &r1  ",
+                        "  &r&lPrice &r16  ",
+                        "  &r&lPrice &r32  ",
+                        "  &r&a> &lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        },
+        "S:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&4&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_YELLOW_FLOWER:0*10 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:0*11 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:1*12 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:2*13 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:3*14 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:4*15 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:5*16 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:6*19 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:7*20 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:8*21 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:0*22 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:1*23 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:2*24 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:3*25 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:4*28 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:5*29 1",
+                        "eeconomy give %cp-player-name% 16"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 1  ",
+                        "  &ePrice: 16  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "REDSTONE",
+                    "commands": [
+                        "open= B:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lMode &rbuy  ",
+                        "  &r&a> &lMode &rSell  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= S16:DevidFlowersShop1",
+                        "right= open= S64:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&a> &lPrice &r1  ",
+                        "  &r&lPrice &r16  ",
+                        "  &r&lPrice &r32  ",
+                        "  &r&lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        },
+        "S16:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&4&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_YELLOW_FLOWER:0*10 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:0*11 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:1*12 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:2*13 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:3*14 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:4*15 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:5*16 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:6*19 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:7*20 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:8*21 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:0*22 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:1*23 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:2*24 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:3*25 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:4*28 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:5*29 16",
+                        "eeconomy give %cp-player-name% 281.6"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell  &aAmount: 16  ",
+                        "  &ePrice: 281.6  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "REDSTONE",
+                    "commands": [
+                        "open= B16:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lMode &rbuy  ",
+                        "  &r&a> &lMode &rSell  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= S32:DevidFlowersShop1",
+                        "right= open= S:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lPrice &r1  ",
+                        "  &r&a> &lPrice &r16  ",
+                        "  &r&lPrice &r32  ",
+                        "  &r&lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        },
+        "S32:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&4&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_YELLOW_FLOWER:0*10 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:0*11 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:1*12 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:2*13 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:3*14 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:4*15 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:5*16 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:6*19 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:7*20 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:8*21 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:0*22 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:1*23 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:2*24 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:3*25 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:4*28 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:5*29 32",
+                        "eeconomy give %cp-player-name% 563.2"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 32  ",
+                        "  &ePrice: 563.2  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "REDSTONE",
+                    "commands": [
+                        "open= B32:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lMode &rbuy  ",
+                        "  &r&a> &lMode &rSell  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= S64:DevidFlowersShop1",
+                        "right= open= S16:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lPrice &r1  ",
+                        "  &r&lPrice &r16  ",
+                        "  &r&a> &lPrice &r32  ",
+                        "  &r&lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        },
+        "S64:DevidFlowersShop1": {
+            "rows": "6",
+            "title": "&4&lDavid's flowers shop &r&01",
+            "empty": "AIR",
+            "item": {
+                "10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_YELLOW_FLOWER:0*10 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rDandelion",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "11": {
+                    "material": "RED_ROSE",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:0*11 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rPoppy",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "12": {
+                    "material": "RED_ROSE",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:1*12 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rBlue Orchid",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "13": {
+                    "material": "RED_ROSE",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:2*13 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rAllium",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "14": {
+                    "material": "RED_ROSE",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:3*14 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rAzure Bluet",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "15": {
+                    "material": "RED_ROSE",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:4*15 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rRed Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "16": {
+                    "material": "RED_ROSE",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:5*16 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rOrange Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "19": {
+                    "material": "RED_ROSE",
+                    "ID": 6,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:6*19 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rWhite Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "20": {
+                    "material": "RED_ROSE",
+                    "ID": 7,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:7*20 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rPink Tulip",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "21": {
+                    "material": "RED_ROSE",
+                    "ID": 8,
+                    "commands": [
+                        "item-paywall= custom_RED_ROSE:8*21 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rOxeye Daisy",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "22": {
+                    "material": "SAPLING",
+                    "ID": 0,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:0*22 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rOak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "23": {
+                    "material": "SAPLING",
+                    "ID": 1,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:1*23 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rSpruce Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "24": {
+                    "material": "SAPLING",
+                    "ID": 2,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:2*24 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rBirch Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "25": {
+                    "material": "SAPLING",
+                    "ID": 3,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:3*25 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rJungle Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "28": {
+                    "material": "SAPLING",
+                    "ID": 4,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:4*28 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rAcacia Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "29": {
+                    "material": "SAPLING",
+                    "ID": 5,
+                    "commands": [
+                        "item-paywall= custom_SAPLING:5*29 64",
+                        "eeconomy give %cp-player-name% 1126.4"
+                    ],
+                    "name": "&rDark Oak Sapling",
+                    "lore": [
+                        "",
+                        "  &a&lSell",
+                        "  &aAmount: 64  ",
+                        "  &ePrice: 1126.4  ",
+                        "  &7  ",
+                        ""
+                    ]
+                },
+                "3": {
+                    "material": "REDSTONE",
+                    "commands": [
+                        "open= B64:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lMode &rbuy  ",
+                        "  &r&a> &lMode &rSell  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "5": {
+                    "material": "GLOWSTONE",
+                    "commands": [
+                        "left= open= S:DevidFlowersShop1",
+                        "right= open= S32:DevidFlowersShop1"
+                    ],
+                    "lore": [
+                        "",
+                        "  &r&lPrice &r1  ",
+                        "  &r&lPrice &r16  ",
+                        "  &r&lPrice &r32  ",
+                        "  &r&a> &lPrice &r64  ",
+                        "",
+                        "  &r&e\u02c4 Right click  ",
+                        "  &r&e\u02c5 Left click  ",
+                        ""
+                    ]
+                },
+                "8": {
+                    "material": "BARRIER",
+                    "commands": [
+                        "cpc"
+                    ],
+                    "name": "&c&lClose"
+                },
+                "0": {
+                    "material": "STAINED_GLASS_PANE",
+                    "ID": 15,
+                    "name": "&f",
+                    "duplicate": "1-2,4,6-7,9,17-18,26-27,35-36,44-47,49,51"
+                }
+            },
+            "custom-item": {
+                "custom_YELLOW_FLOWER:0*10": {
+                    "material": "YELLOW_FLOWER",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:0*11": {
+                    "material": "RED_ROSE",
+                    "ID": 0
+                },
+                "custom_RED_ROSE:1*12": {
+                    "material": "RED_ROSE",
+                    "ID": 1
+                },
+                "custom_RED_ROSE:2*13": {
+                    "material": "RED_ROSE",
+                    "ID": 2
+                },
+                "custom_RED_ROSE:3*14": {
+                    "material": "RED_ROSE",
+                    "ID": 3
+                },
+                "custom_RED_ROSE:4*15": {
+                    "material": "RED_ROSE",
+                    "ID": 4
+                },
+                "custom_RED_ROSE:5*16": {
+                    "material": "RED_ROSE",
+                    "ID": 5
+                },
+                "custom_RED_ROSE:6*19": {
+                    "material": "RED_ROSE",
+                    "ID": 6
+                },
+                "custom_RED_ROSE:7*20": {
+                    "material": "RED_ROSE",
+                    "ID": 7
+                },
+                "custom_RED_ROSE:8*21": {
+                    "material": "RED_ROSE",
+                    "ID": 8
+                },
+                "custom_SAPLING:0*22": {
+                    "material": "SAPLING",
+                    "ID": 0
+                },
+                "custom_SAPLING:1*23": {
+                    "material": "SAPLING",
+                    "ID": 1
+                },
+                "custom_SAPLING:2*24": {
+                    "material": "SAPLING",
+                    "ID": 2
+                },
+                "custom_SAPLING:3*25": {
+                    "material": "SAPLING",
+                    "ID": 3
+                },
+                "custom_SAPLING:4*28": {
+                    "material": "SAPLING",
+                    "ID": 4
+                },
+                "custom_SAPLING:5*29": {
+                    "material": "SAPLING",
+                    "ID": 5
+                }
+            }
+        }
+    }
+}

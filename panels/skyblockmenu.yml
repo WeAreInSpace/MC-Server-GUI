@@ -1,0 +1,66 @@
+panels:
+  skyblockmenu1:
+    title: "&3&lSkyBlock menu"
+    rows: "6"
+    empty: STAINED_GLASS_PANE
+    emptyID: "15"
+    item:
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+      "13":
+        material: "COMPASS"
+        name: "&6Quick Select Server"
+        commands:
+          - open= quick_select_server
+      "21":
+        material: "BOOK"
+        name: "&bItem Info Book"
+        commands:
+          - open= item_info_book
+      "22":
+        material: BOOK_AND_QUILL
+        name: "&eQuest Book"
+        commands:
+          - open= quest_book1
+      "23":
+        material: COMMAND
+        name: "&aCommand Palette"
+        commands:
+          - open= CommandPalette1
+      "29":
+        material: "FEATHER"
+        name: "&bInvite Friend"
+        commands:
+          - cpc
+          - "msg= &f>> Please Enter Player Name:"
+        player-input:
+          - island invite %cp-player-input%
+          - open= skyblockmenu1
+      "30":
+        material: EMERALD
+        name: "&bAccept an invite"
+        commands:
+          - cpc
+          - "island accept"
+      "31":
+        material: GRASS
+        name: "&eChange biome"
+        commands:
+          - cpc
+          - "island biome"
+      "32":
+        material: STAINED_GLASS
+        ID: "4"
+        name: "&eChange border"
+        commands:
+          - cpc
+          - "island border"
+      "33":
+        material: "GOLD_INGOT"
+        name: "&6Upgrade island"
+        commands:
+          - cpc
+          - "island upgrade"

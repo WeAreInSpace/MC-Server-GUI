@@ -1,0 +1,38 @@
+panels:
+  item_guide_book1:
+    title: "&1&lItem Guide Book &r&01"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-51"
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "Cobblestone"
+        material: "COBBLESTONE"
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= G:Cobblestone
+
+      "13":
+        name: "Ore"
+        material: 'DIAMOND_ORE'
+        ID: "0"
+        lore:
+          - "&eClick for more details."
+        commands:
+          - open= G:Ore

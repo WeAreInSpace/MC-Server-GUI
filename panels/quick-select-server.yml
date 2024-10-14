@@ -1,0 +1,5 @@
+quick_select_server:
+  title: "&1&lQuick Select Server"
+  rows: '3'
+  empty: STAINED_GLASS_PANE
+  emptyID: '15'

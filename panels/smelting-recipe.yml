@@ -1,0 +1,623 @@
+panels:
+  S:BakedPotato:
+    title: '&0&l>> &rBaked Potato'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'POTATO'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'BAKED_POTATO'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:CookedChicken:
+    title: '&0&l>> &rCooked Chicken'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'RAW_CHICKEN'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'COOKED_CHICKEN'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:CookedFish:
+    title: '&0&l>> &rCooked Fish'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'RAW_FISH'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'COOKED_FISH'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:CookedPorkchop:
+    title: '&0&l>> &rCooked Porkchop'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'PORK'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'GRILLED_PORK'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Steak:
+    title: '&0&l>> &rSteak'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'RAW_BEEF'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'COOKED_BEEF'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Brick:
+    title: '&0&l>> &rBrick'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'CLAY_BALL'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'CLAY_BRICK'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Glass:
+    title: '&0&l>> &rGlass'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'SAND'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'GLASS'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:GoldIngot:
+    title: '&0&l>> &rGold Ingot'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'GOLD_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'GOLD_INGOT'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:HardenedClay:
+    title: '&0&l>> &rHardened Clay'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'CLAY'
+        ID: '0'
+        commands:
+          - open= C:ClayBlock
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'HARD_CLAY'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:IronIngot:
+    title: '&0&l>> &rIron Ingot'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'IRON_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'IRON_INGOT'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:NetherBrick:
+    title: '&0&l>> &rNether Brick'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'NETHERRACK'
+        ID: '0'
+        commands:
+          - open= C:Netherrack
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'NETHER_BRICK_ITEM'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Stone:
+    title: '&0&l>> &rStone'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'COBBLESTONE'
+        ID: '0'
+        commands:
+          - open= G:Cobblestone
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'STONE'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book1
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:GreenDye:
+    title: '&0&l>> &rGreenDye'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'CACTUS'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'INK_SACK'
+        ID: '2'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Charcoal:
+    title: '&0&l>> &rCharcoal'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'LOG'
+        ID: '0'
+        
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'COAL'
+        ID: '1'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Coal:
+    title: '&0&l>> &rCoal'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'COAL_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'COAL'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Diamond:
+    title: '&0&l>> &rDiamond'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'DIAMOND_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'DIAMOND'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Emerald:
+    title: '&0&l>> &rEmerald'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'EMERALD_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'EMERALD'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:LapisLazuli:
+    title: '&0&l>> &rLapis Lazuli'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'LAPIS_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'INK_SACK'
+        ID: '4'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Quartz:
+    title: '&0&l>> &rQuartz'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'QUARTZ_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'QUARTZ'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+
+  S:Redstone:
+    title: '&0&l>> &rRedstone'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    rows: '3'
+    item:
+      '10':
+        material: 'REDSTONE_ORE'
+        ID: '0'
+        commands:
+          - open= G:Ore
+        lore:
+          - '&eClick to view recipe'
+
+      '12':
+        material: 'FURNACE'
+        name: 'To'
+        ID: '0'
+      '14':
+        material: 'REDSTONE'
+        ID: '0'
+      "26":
+        material: 'FEATHER'
+        name: '&e&lBack'
+        commands:
+          - open= smelting_recipe_book2
+      "17":
+        material: 'BARRIER'
+        name: "&c&lClose"
+        commands:
+          - cpc

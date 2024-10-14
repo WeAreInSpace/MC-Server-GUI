@@ -1,0 +1,309 @@
+panels:
+  smelting_recipe_book1:
+    title: "&2&lSmelting Recipe Book &r&01"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-8,9,17-18,26-27,35-36,44-49,51"
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+        name: "&a&lNext page >"
+        commands:
+          - open= smelting_recipe_book2
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+      "11":
+        name: "Baked Potato"
+
+        material: "BAKED_POTATO"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:BakedPotato
+
+      "13":
+        name: "Cooked Chicken"
+
+        material: "COOKED_CHICKEN"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:CookedChicken
+
+      "15":
+        name: "Cooked Fish"
+
+        material: "COOKED_FISH"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:CookedFish
+
+      "20":
+        name: "Cooked Porkchop"
+
+        material: "GRILLED_PORK"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:CookedPorkchop
+
+      "22":
+        name: "Steak"
+
+        material: "COOKED_BEEF"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Steak
+
+      "24":
+        name: "Brick"
+
+        material: "CLAY_BRICK"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Brick
+
+      "29":
+        name: "Glass"
+
+        material: "GLASS"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Glass
+
+      "31":
+        name: "Gold Ingot"
+
+        material: "GOLD_INGOT"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:GoldIngot
+
+      "33":
+        name: "Hardened Clay"
+
+        material: "HARD_CLAY"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:HardenedClay
+
+      "38":
+        name: "Iron Ingot"
+
+        material: "IRON_INGOT"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:IronIngot
+
+      "40":
+        name: "Nether Brick"
+
+        material: "NETHER_BRICK_ITEM"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:NetherBrick
+
+      "42":
+        name: "Stone"
+
+        material: "STONE"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Stone
+
+  smelting_recipe_book2:
+    title: "&2&lSmelting Recipe Book &r&02"
+    rows: "6"
+    item:
+      "0":
+        material: stained_glass_pane
+        ID: 15
+        name: "&f"
+        duplicate: "1-9,17-18,26-27,35-36,44-47,49-51"
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+        name: "&6&l< Previous page"
+        commands:
+          - open= smelting_recipe_book1
+      "52":
+        material: "FEATHER"
+        name: "&e&lBack"
+        commands:
+          - open= item_info_book
+      "53":
+        material: "BARRIER"
+        name: "&c&lClose"
+        commands:
+          - cpc
+
+      "11":
+        name: "GreenDye"
+
+        material: "INK_SACK"
+
+        ID: "2"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:GreenDye
+
+      "13":
+        name: "Charcoal"
+
+        material: "COAL"
+
+        ID: "1"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Charcoal
+
+      "15":
+        name: "Coal"
+
+        material: "COAL"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Coal
+
+      "20":
+        name: "Diamond"
+
+        material: "DIAMOND"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Diamond
+
+      "22":
+        name: "Emerald"
+
+        material: "EMERALD"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Emerald
+
+      "24":
+        name: "Lapis Lazuli"
+
+        material: "INK_SACK"
+
+        ID: "4"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:LapisLazuli
+
+      "29":
+        name: "Quartz"
+
+        material: "QUARTZ"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Quartz
+
+      "31":
+        name: "Redstone"
+
+        material: "REDSTONE"
+
+        ID: "0"
+
+        lore:
+          - "&eClick for more details."
+
+        commands:
+          - open= S:Redstone
