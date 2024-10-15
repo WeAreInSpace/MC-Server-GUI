@@ -4574,6 +4574,6 @@ with open("panels/crafting-recipes.yml", "wt") as fl:
                 tempPage[craftingId]["item"].update(resMaker(recipeRes))
 
                 tempRecipePanels["panels"].update(tempPage)
-
-        fl.write(yml.dump(data=tempRecipePanels, sort_keys=False, allow_unicode=True))
+ 
         fll.write(yml.dump(data=tempBookPanels, sort_keys=False, allow_unicode=True))
+    fl.write(yml.dump(data=tempRecipePanels, sort_keys=False, allow_unicode=True))
