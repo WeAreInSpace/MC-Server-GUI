@@ -392,37 +392,37 @@ dt = "&5&lSmelting Recipe&0&l>> &r"
 dd = [
     {
         "title": "S:Baked Potato",
-        "1": {"m": POTATO, "id": "", "link": "C:"},
+        "1": {"m": POTATO, "id": "", "link": ""},
         "res": {"m": BAKED_POTATO, "id": ""}
     },
     {
         "title": "S:Cooked Chicken",
-        "1": {"m": RAW_CHICKEN, "id": "", "link": "C:"},
+        "1": {"m": RAW_CHICKEN, "id": "", "link": ""},
         "res": {"m": COOKED_CHICKEN, "id": ""}
     },
     {
         "title": "S:Cooked Fish",
-        "1": {"m": RAW_FISH, "id": "", "link": "C:"},
+        "1": {"m": RAW_FISH, "id": "", "link": ""},
         "res": {"m": COOKED_FISH, "id": ""}
     },
     {
         "title": "S:Cooked Porkchop",
-        "1": {"m": PORK, "id": "", "link": "C:"},
+        "1": {"m": PORK, "id": "", "link": ""},
         "res": {"m": GRILLED_PORK, "id": ""}
     },
     {
         "title": "S:Steak",
-        "1": {"m": RAW_BEEF, "id": "", "link": "C:"},
+        "1": {"m": RAW_BEEF, "id": "", "link": ""},
         "res": {"m": COOKED_BEEF, "id": ""}
     },
     {
         "title": "S:Brick",
-        "1": {"m": CLAY_BALL, "id": "", "link": "C:"},
+        "1": {"m": CLAY_BALL, "id": "", "link": ""},
         "res": {"m": CLAY_BRICK, "id": ""}
     },
     {
         "title": "S:Glass",
-        "1": {"m": SAND, "id": "", "link": "C:"},
+        "1": {"m": SAND, "id": "", "link": ""},
         "res": {"m": GLASS, "id": ""}
     },
     {
@@ -452,12 +452,12 @@ dd = [
     },
     {
         "title": "S:GreenDye",
-        "1": {"m": CACTUS, "id": "", "link": "C:"},
+        "1": {"m": CACTUS, "id": "", "link": ""},
         "res": {"m": INK_SACK, "id": "2"}
     },
     {
         "title": "S:Charcoal",
-        "1": {"m": LOG, "id": "", "link": "C:"},
+        "1": {"m": LOG, "id": "", "link": ""},
         "res": {"m": COAL, "id": "1"}
     },
     {
@@ -528,7 +528,7 @@ for i in dd:
         temp_1_id = "0"
     else:
         temp_1_id = temp_1["id"]
-    if(temp_1["link"] != "C:"):
+    if(temp_1["link"] != ""):
         temp_1_link =f"""commands:\n          - open= {temp_1["link"]}\n        lore:\n          - '&eClick to view recipe'\n"""
 
     temp_yml = f"""  {name}:\n    title: '{dt}{title}'\n    empty: STAINED_GLASS_PANE\n    emptyID: '15'\n    rows: '3'\n    item:\n      '10':\n        material: '{temp_1_m}'\n        ID: '{temp_1_id}'\n        {temp_1_link}\n      '12':\n        material: '{FURNACE}'\n        name: 'To'\n        ID: '0'\n      '14':\n        material: '{temp_res_m}'\n        ID: '{temp_res_id}'\n      "26":\n        material: 'FEATHER'\n        name: '&e&lBack'\n        commands:\n          - open= item-guide-book-1\n      "17":\n        material: 'BARRIER'\n        name: "&c&lClose"\n        commands:\n          - cpc"""
